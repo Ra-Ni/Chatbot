@@ -2,30 +2,55 @@ import rdflib
 import json
 
 CourseData = json.load(open("courses.json"))
-out =  open("out.txt","w")
+out =  open("Courses.ttl","w")
 out.write(
-    "@prefix courseNum: <TBA>.\n"+
-    "@prefix Course: <TBA>.\n"+
+    "@prefix courseNum: <https://conupedia.sytes.net/CourseNum/>.\n"+
+    "@prefix Cr: <https://conupedia.sytes.net/Course/>.\n"+
     "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.\n"+
-    "@prefix careerRoot: <TBA>."
+    "@prefix Career: <https://conupedia.sytes.net/Career/>.\n\n"+
+
+    "Career:UGRD\n" +    #Carrer Touples
+        "\tCareer:URL " +
+            "<https://www.concordia.ca/academics/undergraduate.html>;\n" +
+        "\tCareer:Name " +
+            '"Undergraduate Studies".' +
+    "\nCareer:GRAD\n" +
+        "\tCareer:URL "+
+            "<https://www.concordia.ca/academics/graduate.html>;\n" +
+        "\tCareer:Name " +
+            '"Graduate Studies".' +
+    "\nCareer:CCCE\n" +
+        "\tCareer:URL " +
+            "\t<https://www.concordia.ca/cce.html>;\n" +
+        "\tCareer:Name " +
+            '"Concordia Center for Continued Education".' +
+    "\nCareer:PDEV\n" +
+        "\tCareer:URL " +
+            "\t<https://www.concordia.ca/students/gradproskills.html>;\n" +
+        "\tCareer:Name " +
+            '"GradProSkills".' +
+
+    "\t"
+    "\n"
+
 )
-preRecs = "";
+preRecs = ""
 for I in CourseData :
-        for X in I["prerequisites"].split():
-            if(len(X)==7):
-                print(X)
         n = ""
         n = (
-            "\nCourse:" + I["subject"] + I["catalog"] + "" +
-            "\n\tCourse:ID "+I["ID"]+";"+
+            #"\nCourse:" + I["subject"] + I["catalog"] + "" +
+            "\nCr:"+I["ID"]+""+
             "\n\ta <https://schema.org/Course>" + ";" +
-            #"\n\tCourse:courseCode '" + I["subject"]+I["catalog"] + "';" +
-            "\n\tCourse:numberOfCredits " + I["classUnit"]+";" +
-            '\n\tCourse:name "' + I["title"]+'"'+";"+
-            "\n\tCourse:carrer careerRoot:" + I['career']+""
+            "\n\tCr:courseCode '" + I["subject"]+I["catalog"] + "';" +
+            "\n\tCr:numberOfCredits " + I["classUnit"]+";" +
+            '\n\tCr:name "' + I["title"].replace('"',"'")+'"'+";"+
+            '\n\tCr:career Career:' + I['career']+' '
             )
         if(I["prerequisites"] != ""):
-            n += ";\n\tCourse:coursePrerequisites '" + I["prerequisites"].replace("\n" , " ")+"'"
-        n += "."
+            n += ";\n\tCr:coursePrerequisites '" + I["prerequisites"].replace("\n" , " ")+"'"
+        n += (
+                "." +
+                "\n<http://dbpedia.org/resource/Concordia_University> Cr:offers Cr:" + I["ID"] + "."
+            )
         out.write(n)
 out.close()
