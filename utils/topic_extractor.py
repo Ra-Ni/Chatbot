@@ -64,4 +64,4 @@ def run(course_id, description: str, resource) -> None:
 
     if buffer:
         buffer = '\n'.join([f'\towl:sameAs <{uri}>' for uri in buffer])
-        resource.write(f'Course:{course_id}\n{buffer}\n')
+        resource.write(f'Cr:{course_id}\n{buffer}')
