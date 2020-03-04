@@ -32,9 +32,8 @@ BODY = {
     'sparql': ''
 }
 
-TARGET_PATH = None
 
-def extract(course_id, description: str) -> None:
+def run(course_id, description: str, resource) -> None:
     encoded_description = description.replace(' ', '+')
     encoded_description = quote(encoded_description, safe='+')
     BODY['text'] = encoded_description
@@ -50,20 +49,19 @@ def extract(course_id, description: str) -> None:
     response = request.getresponse()
     response_dictionary = response.read().decode('UTF-8')
     response_dictionary = loads(response_dictionary)
-    # todo something
-    print(f'Course:{course_id}')
+
+    buffer = []
+
     try:
         for x in response_dictionary['Resources']:
-            # what to do?
-            topic = x['@surfaceForm']
-            topic = topic.replace(' ', '_')
-            url = x['@URI']
-
-            print(f'\tCourse:describes <{url}>')
-
+            uri = x['@URI']
+            if uri not in buffer:
+                buffer.append(uri)
     except KeyError:
         pass
 
     request.close()
 
-extract(0, "In this applied learning experience, students select a topic related to\ntheir area of interest and carry out a research project in collaboration with faculty\nsupervisors, or managers in for-profit and non-profit organizations. The student\ncarries out the project using the appropriate methodology, writes a research report,\nand gives an oral presentation at the end of the term. The course allows students to develop their skills while providing a useful service to practitioners, deepening their understanding of key areas in management, and building a career-enhancing\nprofessional network.")
+    if buffer:
+        buffer = '\n'.join([f'\towl:sameAs <{uri}>' for uri in buffer])
+        resource.write(f'Course:{course_id}\n{buffer}\n')
