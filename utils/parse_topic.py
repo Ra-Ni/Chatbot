@@ -1,3 +1,4 @@
+from http.client import RemoteDisconnected
 from json import loads
 from re import sub
 from urllib import parse
@@ -72,9 +73,11 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
                 while status_code != 200:
                     print('.', end='')
                     request.request('POST', path, body=string_body, headers=headers)
-                    response = request.getresponse()
-
-                    status_code = response.status
+                    try:
+                        response = request.getresponse()
+                        status_code = response.status
+                    except RemoteDisconnected:
+                        status_code = -1
 
                     if status_code == 200:
                         response = response.read().decode('UTF-8')
@@ -93,7 +96,7 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
                     pass
 
                 if buffer:
-                    buffer = '\n'.join([f'\t{owl_acronym}:sameAs <{uri}>' for uri in buffer])
+                    buffer = ';\n'.join([f'\t{owl_acronym}:sameAs <{uri}>' for uri in buffer])
                     writer.write(f'\n\n{course}\n{buffer}')
 
                 line = reader.readline()
