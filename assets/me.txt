@@ -11395,3 +11395,1109 @@ course:049287
 	owl:sameAs <http://dbpedia.org/resource/VIDgital>
 	owl:sameAs <http://dbpedia.org/resource/Financial_statement>
 	owl:sameAs <http://dbpedia.org/resource/British_Association_for_Immediate_Care>
+
+course:048533
+	owl:sameAs <http://dbpedia.org/resource/Trust_law>
+	owl:sameAs <http://dbpedia.org/resource/Jane_Fonda>
+	owl:sameAs <http://dbpedia.org/resource/Management>
+	owl:sameAs <http://dbpedia.org/resource/Antenna_gain>
+	owl:sameAs <http://dbpedia.org/resource/Carbon_nanotube>
+	owl:sameAs <http://dbpedia.org/resource/Mentorship>
+	owl:sameAs <http://dbpedia.org/resource/Feedback>
+	owl:sameAs <http://dbpedia.org/resource/List_of_DOS_commands>
+	owl:sameAs <http://dbpedia.org/resource/VIDgital>
+	owl:sameAs <http://dbpedia.org/resource/Coaching>
+	owl:sameAs <http://dbpedia.org/resource/Human_resources>
+	owl:sameAs <http://dbpedia.org/resource/List_of_Gun_Sword_characters>
+
+course:027700
+	owl:sameAs <http://dbpedia.org/resource/Mobilization>
+	owl:sameAs <http://dbpedia.org/resource/Economic_development>
+	owl:sameAs <http://dbpedia.org/resource/China>
+
+course:033780
+	owl:sameAs <http://dbpedia.org/resource/Themed_Entertainment_Association>
+
+course:033788
+	owl:sameAs <http://dbpedia.org/resource/Prehistory>
+	owl:sameAs <http://dbpedia.org/resource/Europe>
+
+course:005956
+	owl:sameAs <http://dbpedia.org/resource/Methodology>
+	owl:sameAs <http://dbpedia.org/resource/Orchestration>
+	owl:sameAs <http://dbpedia.org/resource/Propaganda>
+	owl:sameAs <http://dbpedia.org/resource/Communication_studies>
+
+course:033874
+	owl:sameAs <http://dbpedia.org/resource/Self-reflection>
+	owl:sameAs <http://dbpedia.org/resource/Free_will>
+	owl:sameAs <http://dbpedia.org/resource/Morality>
+	owl:sameAs <http://dbpedia.org/resource/Ethics>
+	owl:sameAs <http://dbpedia.org/resource/Good_and_evil>
+	owl:sameAs <http://dbpedia.org/resource/Convergent_series>
+	owl:sameAs <http://dbpedia.org/resource/Christianity>
+	owl:sameAs <http://dbpedia.org/resource/Moral_development>
+	owl:sameAs <http://dbpedia.org/resource/Christian_ethics>
+	owl:sameAs <http://dbpedia.org/resource/Faith>
+
+course:026503
+	owl:sameAs <http://dbpedia.org/resource/Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Brain>
+	owl:sameAs <http://dbpedia.org/resource/Consciousness>
+
+course:008952
+	owl:sameAs <http://dbpedia.org/resource/Critical_theory>
+	owl:sameAs <http://dbpedia.org/resource/Performativity>
+	owl:sameAs <http://dbpedia.org/resource/Friedrich_Nietzsche>
+	owl:sameAs <http://dbpedia.org/resource/Genealogy>
+	owl:sameAs <http://dbpedia.org/resource/Roland_Barthes>
+	owl:sameAs <http://dbpedia.org/resource/Austin_Motor_Company>
+	owl:sameAs <http://dbpedia.org/resource/Structuralism>
+	owl:sameAs <http://dbpedia.org/resource/Ferdinand_de_Saussure>
+	owl:sameAs <http://dbpedia.org/resource/Jacques_Derrida>
+	owl:sameAs <http://dbpedia.org/resource/Adam_Sedgwick>
+	owl:sameAs <http://dbpedia.org/resource/Gender>
+	owl:sameAs <http://dbpedia.org/resource/Michel_Foucault>
+	owl:sameAs <http://dbpedia.org/resource/Deconstruction>
+	owl:sameAs <http://dbpedia.org/resource/Psychoanalysis>
+	owl:sameAs <http://dbpedia.org/resource/Narratology>
+
+course:048039
+	owl:sameAs <http://dbpedia.org/resource/Mathematics_education>
+
+course:029769
+	owl:sameAs <http://dbpedia.org/resource/Judaism>
+	owl:sameAs <http://dbpedia.org/resource/Jews>
+	owl:sameAs <http://dbpedia.org/resource/Reli_language>
+
+course:003922
+	owl:sameAs <http://dbpedia.org/resource/Ring-opening_polymerization>
+	owl:sameAs <http://dbpedia.org/resource/Amphiphile>
+	owl:sameAs <http://dbpedia.org/resource/Polymer_chemistry>
+	owl:sameAs <http://dbpedia.org/resource/Copolymer>
+	owl:sameAs <http://dbpedia.org/resource/Free-radical_halogenation>
+	owl:sameAs <http://dbpedia.org/resource/Nanomedicine>
+	owl:sameAs <http://dbpedia.org/resource/Anionic_addition_polymerization>
+	owl:sameAs <http://dbpedia.org/resource/Cell_biology>
+	owl:sameAs <http://dbpedia.org/resource/Functional_polymers>
+	owl:sameAs <http://dbpedia.org/resource/Radical_polymerization>
+	owl:sameAs <http://dbpedia.org/resource/Cross-link>
+	owl:sameAs <http://dbpedia.org/resource/Biomedical_engineering>
+	owl:sameAs <http://dbpedia.org/resource/Nanomaterials>
+	owl:sameAs <http://dbpedia.org/resource/Micelle>
+	owl:sameAs <http://dbpedia.org/resource/Self-assembly>
+	owl:sameAs <http://dbpedia.org/resource/Gel>
+	owl:sameAs <http://dbpedia.org/resource/École_spéciale_militaire_de_Saint-Cyr>
+	owl:sameAs <http://dbpedia.org/resource/Materials_science>
+	owl:sameAs <http://dbpedia.org/resource/Ion>
+	owl:sameAs <http://dbpedia.org/resource/Drug_delivery>
+	owl:sameAs <http://dbpedia.org/resource/Classical_mechanics>
+	owl:sameAs <http://dbpedia.org/resource/Polymer>
+
+course:049444
+	owl:sameAs <http://dbpedia.org/resource/Annual_percentage_rate>
+	owl:sameAs <http://dbpedia.org/resource/Etten-Leur>
+	owl:sameAs <http://dbpedia.org/resource/Sète>
+	owl:sameAs <http://dbpedia.org/resource/Large_eddy_simulation>
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Battle_of_Issus>
+	owl:sameAs <http://dbpedia.org/resource/Frais>
+	owl:sameAs <http://dbpedia.org/resource/Consumer_Electronics_Show>
+	owl:sameAs <http://dbpedia.org/resource/Voseo>
+	owl:sameAs <http://dbpedia.org/resource/Divertissement>
+	owl:sameAs <http://dbpedia.org/resource/3rd_Marine_Artillery_Regiment>
+	owl:sameAs <http://dbpedia.org/resource/Bec_Abbey>
+	owl:sameAs <http://dbpedia.org/resource/Vingtaine>
+	owl:sameAs <http://dbpedia.org/resource/Association_francophone_pour_le_savoir>
+	owl:sameAs <http://dbpedia.org/resource/Valorisation>
+	owl:sameAs <http://dbpedia.org/resource/Doctorate>
+
+course:049321
+	owl:sameAs <http://dbpedia.org/resource/Trust_law>
+	owl:sameAs <http://dbpedia.org/resource/Develop_(magazine)>
+	owl:sameAs <http://dbpedia.org/resource/Management>
+	owl:sameAs <http://dbpedia.org/resource/Negotiation>
+	owl:sameAs <http://dbpedia.org/resource/IF_Ready>
+	owl:sameAs <http://dbpedia.org/resource/Carbon_nanotube>
+	owl:sameAs <http://dbpedia.org/resource/Concrete>
+	owl:sameAs <http://dbpedia.org/resource/List_of_DOS_commands>
+	owl:sameAs <http://dbpedia.org/resource/VIDgital>
+
+course:037304
+	owl:sameAs <http://dbpedia.org/resource/Pedagogy>
+	owl:sameAs <http://dbpedia.org/resource/Technology>
+	owl:sameAs <http://dbpedia.org/resource/Fender_Wide_Range>
+	owl:sameAs <http://dbpedia.org/resource/Learning>
+	owl:sameAs <http://dbpedia.org/resource/Peer_instruction>
+	owl:sameAs <http://dbpedia.org/resource/Student_engagement>
+
+course:026708
+	owl:sameAs <http://dbpedia.org/resource/Logic>
+
+course:049581
+	owl:sameAs <http://dbpedia.org/resource/Islamic_philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Islam>
+	owl:sameAs <http://dbpedia.org/resource/Human_sexuality>
+	owl:sameAs <http://dbpedia.org/resource/Causality>
+	owl:sameAs <http://dbpedia.org/resource/Skepticism>
+	owl:sameAs <http://dbpedia.org/resource/Cosmology>
+	owl:sameAs <http://dbpedia.org/resource/Muhammad_Iqbal>
+	owl:sameAs <http://dbpedia.org/resource/Amina_Wadud>
+	owl:sameAs <http://dbpedia.org/resource/Ibn-Rushd_(crater)>
+	owl:sameAs <http://dbpedia.org/resource/Ibn_Tufail>
+	owl:sameAs <http://dbpedia.org/resource/Democracy>
+	owl:sameAs <http://dbpedia.org/resource/Gender>
+	owl:sameAs <http://dbpedia.org/resource/Environmental_ethics>
+	owl:sameAs <http://dbpedia.org/resource/Classical_antiquity>
+	owl:sameAs <http://dbpedia.org/resource/Abdolkarim_Soroush>
+	owl:sameAs <http://dbpedia.org/resource/Kecia_Ali>
+	owl:sameAs <http://dbpedia.org/resource/God>
+
+course:033795
+	owl:sameAs <http://dbpedia.org/resource/Seminar>
+	owl:sameAs <http://dbpedia.org/resource/Genre>
+
+course:033796
+	owl:sameAs <http://dbpedia.org/resource/Seminar>
+	owl:sameAs <http://dbpedia.org/resource/Genre>
+
+course:033804
+	owl:sameAs <http://dbpedia.org/resource/Paper>
+	owl:sameAs <http://dbpedia.org/resource/Independent_politician>
+
+course:033805
+	owl:sameAs <http://dbpedia.org/resource/Philosophical_analysis>
+
+course:033807
+	owl:sameAs <http://dbpedia.org/resource/Themed_Entertainment_Association>
+
+course:033809
+	owl:sameAs <http://dbpedia.org/resource/Themed_Entertainment_Association>
+	owl:sameAs <http://dbpedia.org/resource/Dimension>
+
+course:047612
+	owl:sameAs <http://dbpedia.org/resource/Time>
+	owl:sameAs <http://dbpedia.org/resource/Email>
+	owl:sameAs <http://dbpedia.org/resource/Canada>
+	owl:sameAs <http://dbpedia.org/resource/Natural_science>
+	owl:sameAs <http://dbpedia.org/resource/French_ship_Recherche_(1787)>
+	owl:sameAs <http://dbpedia.org/resource/Conscription>
+	owl:sameAs <http://dbpedia.org/resource/Natural_Sciences_and_Engineering_Research_Council>
+	owl:sameAs <http://dbpedia.org/resource/Feedback>
+	owl:sameAs <http://dbpedia.org/resource/Engineering>
+	owl:sameAs <http://dbpedia.org/resource/Bec_Abbey>
+
+course:048482
+	owl:sameAs <http://dbpedia.org/resource/Robert_Bourassa>
+	owl:sameAs <http://dbpedia.org/resource/Canada>
+	owl:sameAs <http://dbpedia.org/resource/The_Workshop_(Smash)>
+	owl:sameAs <http://dbpedia.org/resource/Executive_Council_of_Upper_Canada>
+	owl:sameAs <http://dbpedia.org/resource/Mayor>
+	owl:sameAs <http://dbpedia.org/resource/Bec_Abbey>
+	owl:sameAs <http://dbpedia.org/resource/Civil_service>
+	owl:sameAs <http://dbpedia.org/resource/List_of_EastEnders_characters_(2014)>
+
+course:048370
+	owl:sameAs <http://dbpedia.org/resource/Popular_culture>
+	owl:sameAs <http://dbpedia.org/resource/Judaism>
+	owl:sameAs <http://dbpedia.org/resource/Reli_language>
+	owl:sameAs <http://dbpedia.org/resource/Film_director>
+	owl:sameAs <http://dbpedia.org/resource/Sphere>
+	owl:sameAs <http://dbpedia.org/resource/Culture_of_the_United_States>
+	owl:sameAs <http://dbpedia.org/resource/Graphic_novel>
+	owl:sameAs <http://dbpedia.org/resource/Television>
+	owl:sameAs <http://dbpedia.org/resource/Comedy_film>
+	owl:sameAs <http://dbpedia.org/resource/Jews>
+
+course:029776
+	owl:sameAs <http://dbpedia.org/resource/Fiction>
+	owl:sameAs <http://dbpedia.org/resource/Foodways>
+	owl:sameAs <http://dbpedia.org/resource/Religious_text>
+	owl:sameAs <http://dbpedia.org/resource/Judaism>
+	owl:sameAs <http://dbpedia.org/resource/Reli_language>
+	owl:sameAs <http://dbpedia.org/resource/Film_director>
+	owl:sameAs <http://dbpedia.org/resource/Random_variable>
+	owl:sameAs <http://dbpedia.org/resource/Food>
+	owl:sameAs <http://dbpedia.org/resource/Jews>
+	owl:sameAs <http://dbpedia.org/resource/Case_study>
+
+course:048841
+	owl:sameAs <http://dbpedia.org/resource/Roman_mythology>
+	owl:sameAs <http://dbpedia.org/resource/Mythology>
+	owl:sameAs <http://dbpedia.org/resource/Ancient_Near_East>
+	owl:sameAs <http://dbpedia.org/resource/CLAS_detector>
+	owl:sameAs <http://dbpedia.org/resource/Greek_language>
+	owl:sameAs <http://dbpedia.org/resource/Mediterranean_Sea>
+
+course:046694
+	owl:sameAs <http://dbpedia.org/resource/Filmmaking>
+
+course:046429
+	owl:sameAs <http://dbpedia.org/resource/Train>
+	owl:sameAs <http://dbpedia.org/resource/Communication>
+	owl:sameAs <http://dbpedia.org/resource/Psychological_stress>
+	owl:sameAs <http://dbpedia.org/resource/Carbon_nanotube>
+	owl:sameAs <http://dbpedia.org/resource/Multiculturalism>
+	owl:sameAs <http://dbpedia.org/resource/List_of_DOS_commands>
+	owl:sameAs <http://dbpedia.org/resource/VIDgital>
+	owl:sameAs <http://dbpedia.org/resource/Asset>
+	owl:sameAs <http://dbpedia.org/resource/City>
+	owl:sameAs <http://dbpedia.org/resource/Sensory_processing>
+	owl:sameAs <http://dbpedia.org/resource/Culture_shock>
+
+course:037042
+	owl:sameAs <http://dbpedia.org/resource/Private_school>
+	owl:sameAs <http://dbpedia.org/resource/Elevator>
+	owl:sameAs <http://dbpedia.org/resource/Master_of_Business_Administration>
+	owl:sameAs <http://dbpedia.org/resource/John_Molson>
+	owl:sameAs <http://dbpedia.org/resource/Team_Menard>
+	owl:sameAs <http://dbpedia.org/resource/McGill_University>
+	owl:sameAs <http://dbpedia.org/resource/Employment_agency>
+	owl:sameAs <http://dbpedia.org/resource/John_Molson_School_of_Business>
+
+course:023131
+	owl:sameAs <http://dbpedia.org/resource/Visual_arts>
+	owl:sameAs <http://dbpedia.org/resource/Gene_expression>
+	owl:sameAs <http://dbpedia.org/resource/Classical_antiquity>
+
+course:000236
+	owl:sameAs <http://dbpedia.org/resource/Extended_play>
+	owl:sameAs <http://dbpedia.org/resource/Mortality_rate>
+	owl:sameAs <http://dbpedia.org/resource/Endowment_policy>
+	owl:sameAs <http://dbpedia.org/resource/Mathematics>
+	owl:sameAs <http://dbpedia.org/resource/Life_insurance>
+	owl:sameAs <http://dbpedia.org/resource/Life_annuity>
+
+course:033562
+	owl:sameAs <http://dbpedia.org/resource/Pearson_product-moment_correlation_coefficient>
+	owl:sameAs <http://dbpedia.org/resource/Kendall_Hart>
+	owl:sameAs <http://dbpedia.org/resource/Tau_protein>
+	owl:sameAs <http://dbpedia.org/resource/Spearman's_rank_correlation_coefficient>
+	owl:sameAs <http://dbpedia.org/resource/Kolmogorov–Smirnov_test>
+	owl:sameAs <http://dbpedia.org/resource/Sign_test>
+	owl:sameAs <http://dbpedia.org/resource/Ranking>
+	owl:sameAs <http://dbpedia.org/resource/Mathematics>
+	owl:sameAs <http://dbpedia.org/resource/Chi-squared_test>
+	owl:sameAs <http://dbpedia.org/resource/Kruskal–Wallis_one-way_analysis_of_variance>
+	owl:sameAs <http://dbpedia.org/resource/Mann–Whitney_U_test>
+
+course:040982
+	owl:sameAs <http://dbpedia.org/resource/Augustus>
+	owl:sameAs <http://dbpedia.org/resource/Ancient_Rome>
+	owl:sameAs <http://dbpedia.org/resource/CLAS_detector>
+	owl:sameAs <http://dbpedia.org/resource/Roman_Empire>
+	owl:sameAs <http://dbpedia.org/resource/Cultural_history>
+
+course:011278
+	owl:sameAs <http://dbpedia.org/resource/Nouveau_roman>
+
+course:028754
+	owl:sameAs <http://dbpedia.org/resource/Medical_diagnosis>
+	owl:sameAs <http://dbpedia.org/resource/Theory>
+	owl:sameAs <http://dbpedia.org/resource/Physical_disability>
+	owl:sameAs <http://dbpedia.org/resource/Disability>
+	owl:sameAs <http://dbpedia.org/resource/Perception>
+	owl:sameAs <http://dbpedia.org/resource/Therapy>
+	owl:sameAs <http://dbpedia.org/resource/Psychology>
+	owl:sameAs <http://dbpedia.org/resource/Cellular_differentiation>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Learning_disability>
+
+course:004782
+	owl:sameAs <http://dbpedia.org/resource/Homer>
+	owl:sameAs <http://dbpedia.org/resource/Euripides>
+	owl:sameAs <http://dbpedia.org/resource/Grammar>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Syntax>
+
+course:049414
+	owl:sameAs <http://dbpedia.org/resource/Exercise_physiology>
+	owl:sameAs <http://dbpedia.org/resource/Committee>
+
+course:037324
+	owl:sameAs <http://dbpedia.org/resource/Graduate_school>
+	owl:sameAs <http://dbpedia.org/resource/Outer_space>
+	owl:sameAs <http://dbpedia.org/resource/Union_representative>
+	owl:sameAs <http://dbpedia.org/resource/Baseball_field>
+	owl:sameAs <http://dbpedia.org/resource/Teaching_assistant>
+	owl:sameAs <http://dbpedia.org/resource/Undergraduate_education>
+
+course:007252
+	owl:sameAs <http://dbpedia.org/resource/Keynesian_economics>
+	owl:sameAs <http://dbpedia.org/resource/Financial_market>
+	owl:sameAs <http://dbpedia.org/resource/Post-Keynesian_economics>
+	owl:sameAs <http://dbpedia.org/resource/Economy>
+	owl:sameAs <http://dbpedia.org/resource/Classical_music>
+	owl:sameAs <http://dbpedia.org/resource/Fiscal_policy>
+	owl:sameAs <http://dbpedia.org/resource/Macroeconomics>
+	owl:sameAs <http://dbpedia.org/resource/Monetary_policy>
+
+course:049332
+	owl:sameAs <http://dbpedia.org/resource/BM-21_Grad>
+
+course:047975
+	owl:sameAs <http://dbpedia.org/resource/Project_stakeholder>
+	owl:sameAs <http://dbpedia.org/resource/Conceptual_model>
+	owl:sameAs <http://dbpedia.org/resource/Social_responsibility>
+	owl:sameAs <http://dbpedia.org/resource/Negotiation>
+
+course:034028
+	owl:sameAs <http://dbpedia.org/resource/Liturgy>
+	owl:sameAs <http://dbpedia.org/resource/Baptism>
+	owl:sameAs <http://dbpedia.org/resource/Communication>
+	owl:sameAs <http://dbpedia.org/resource/Sacred_mysteries>
+	owl:sameAs <http://dbpedia.org/resource/Sacrament>
+	owl:sameAs <http://dbpedia.org/resource/Eucharist>
+	owl:sameAs <http://dbpedia.org/resource/Rite>
+	owl:sameAs <http://dbpedia.org/resource/Christianity>
+
+course:047700
+	owl:sameAs <http://dbpedia.org/resource/Stage_management>
+	owl:sameAs <http://dbpedia.org/resource/Production_manager_(theatre)>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Sound_design>
+
+course:034467
+	owl:sameAs <http://dbpedia.org/resource/Gene_expression>
+	owl:sameAs <http://dbpedia.org/resource/British_Association_for_Immediate_Care>
+	owl:sameAs <http://dbpedia.org/resource/Improvisation>
+
+course:004754
+	owl:sameAs <http://dbpedia.org/resource/Augustus>
+	owl:sameAs <http://dbpedia.org/resource/Western_world>
+	owl:sameAs <http://dbpedia.org/resource/CLAS_detector>
+	owl:sameAs <http://dbpedia.org/resource/Roman_Empire>
+	owl:sameAs <http://dbpedia.org/resource/Cultural_history>
+
+course:048842
+	owl:sameAs <http://dbpedia.org/resource/Homer>
+	owl:sameAs <http://dbpedia.org/resource/Callimachus>
+	owl:sameAs <http://dbpedia.org/resource/Hellenistic_period>
+	owl:sameAs <http://dbpedia.org/resource/Hexameter>
+	owl:sameAs <http://dbpedia.org/resource/Archaic_Greece>
+	owl:sameAs <http://dbpedia.org/resource/Genre>
+	owl:sameAs <http://dbpedia.org/resource/Poetry>
+	owl:sameAs <http://dbpedia.org/resource/Homeric_Hymns>
+	owl:sameAs <http://dbpedia.org/resource/Greek_language>
+	owl:sameAs <http://dbpedia.org/resource/Hesiod>
+	owl:sameAs <http://dbpedia.org/resource/Epic_poetry>
+
+course:040984
+	owl:sameAs <http://dbpedia.org/resource/Alexander_the_Great>
+	owl:sameAs <http://dbpedia.org/resource/CLAS_detector>
+	owl:sameAs <http://dbpedia.org/resource/Ancient_Greece>
+	owl:sameAs <http://dbpedia.org/resource/Greek_language>
+	owl:sameAs <http://dbpedia.org/resource/Roman_Empire>
+	owl:sameAs <http://dbpedia.org/resource/Anno_Domini>
+	owl:sameAs <http://dbpedia.org/resource/Cultural_history>
+
+course:023478
+	owl:sameAs <http://dbpedia.org/resource/Theory>
+	owl:sameAs <http://dbpedia.org/resource/Natural_language>
+	owl:sameAs <http://dbpedia.org/resource/Formal_language>
+	owl:sameAs <http://dbpedia.org/resource/Semantics>
+	owl:sameAs <http://dbpedia.org/resource/Formalism_(art)>
+
+course:028809
+	owl:sameAs <http://dbpedia.org/resource/Physics>
+	owl:sameAs <http://dbpedia.org/resource/Theory>
+	owl:sameAs <http://dbpedia.org/resource/Religion>
+	owl:sameAs <http://dbpedia.org/resource/William_James>
+	owl:sameAs <http://dbpedia.org/resource/Social_Forces>
+	owl:sameAs <http://dbpedia.org/resource/Middle_Ages>
+	owl:sameAs <http://dbpedia.org/resource/Psychology>
+	owl:sameAs <http://dbpedia.org/resource/Renaissance>
+	owl:sameAs <http://dbpedia.org/resource/List_of_psychological_schools>
+	owl:sameAs <http://dbpedia.org/resource/Physiology>
+	owl:sameAs <http://dbpedia.org/resource/Paradigm>
+	owl:sameAs <http://dbpedia.org/resource/Ancient_Greece>
+	owl:sameAs <http://dbpedia.org/resource/Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Psychophysics>
+
+course:004791
+	owl:sameAs <http://dbpedia.org/resource/Latin>
+	owl:sameAs <http://dbpedia.org/resource/Attention>
+	owl:sameAs <http://dbpedia.org/resource/Ancient_Rome>
+	owl:sameAs <http://dbpedia.org/resource/Ovid>
+	owl:sameAs <http://dbpedia.org/resource/Catullus>
+	owl:sameAs <http://dbpedia.org/resource/Grammar>
+	owl:sameAs <http://dbpedia.org/resource/Petronius>
+	owl:sameAs <http://dbpedia.org/resource/Syntax>
+
+course:028962
+	owl:sameAs <http://dbpedia.org/resource/Memory>
+	owl:sameAs <http://dbpedia.org/resource/Differential_psychology>
+	owl:sameAs <http://dbpedia.org/resource/Emotion>
+	owl:sameAs <http://dbpedia.org/resource/Mood_disorder>
+
+course:049165
+	owl:sameAs <http://dbpedia.org/resource/Income_tax>
+	owl:sameAs <http://dbpedia.org/resource/Free_software>
+	owl:sameAs <http://dbpedia.org/resource/Tax_bracket>
+	owl:sameAs <http://dbpedia.org/resource/Thyroid_hormones>
+	owl:sameAs <http://dbpedia.org/resource/Tax>
+	owl:sameAs <http://dbpedia.org/resource/Canadians>
+	owl:sameAs <http://dbpedia.org/resource/Tax_deduction>
+	owl:sameAs <http://dbpedia.org/resource/Doctor_of_Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Tax_return_(United_States)>
+	owl:sameAs <http://dbpedia.org/resource/Tax_credit>
+	owl:sameAs <http://dbpedia.org/resource/Fluorescent_lamp>
+	owl:sameAs <http://dbpedia.org/resource/Suzuki_LC10_engine>
+	owl:sameAs <http://dbpedia.org/resource/Taxable_income>
+	owl:sameAs <http://dbpedia.org/resource/DVLP>
+	owl:sameAs <http://dbpedia.org/resource/Alex_Wilder>
+	owl:sameAs <http://dbpedia.org/resource/Taxation_in_Canada>
+	owl:sameAs <http://dbpedia.org/resource/Demoscene>
+	owl:sameAs <http://dbpedia.org/resource/Real_life>
+
+course:008620
+	owl:sameAs <http://dbpedia.org/resource/Literary_genre>
+	owl:sameAs <http://dbpedia.org/resource/Vocabulary>
+	owl:sameAs <http://dbpedia.org/resource/Novella>
+	owl:sameAs <http://dbpedia.org/resource/Short_story>
+
+course:008924
+	owl:sameAs <http://dbpedia.org/resource/Prose>
+	owl:sameAs <http://dbpedia.org/resource/English_poetry>
+	owl:sameAs <http://dbpedia.org/resource/Poetry>
+	owl:sameAs <http://dbpedia.org/resource/Canadian_literature>
+
+course:037215
+	owl:sameAs <http://dbpedia.org/resource/The_Workshop_(Smash)>
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Patent>
+	owl:sameAs <http://dbpedia.org/resource/Intellectual_property>
+	owl:sameAs <http://dbpedia.org/resource/Canadian_Intellectual_Property_Office>
+	owl:sameAs <http://dbpedia.org/resource/Invention>
+	owl:sameAs <http://dbpedia.org/resource/Patentability>
+	owl:sameAs <http://dbpedia.org/resource/Indispensable_(1791_ship)>
+
+course:049285
+	owl:sameAs <http://dbpedia.org/resource/The_Answer_(band)>
+	owl:sameAs <http://dbpedia.org/resource/Electronic_business>
+	owl:sameAs <http://dbpedia.org/resource/Diploma>
+	owl:sameAs <http://dbpedia.org/resource/Outer_space>
+	owl:sameAs <http://dbpedia.org/resource/Entrepreneurship>
+	owl:sameAs <http://dbpedia.org/resource/Carbon_nanotube>
+	owl:sameAs <http://dbpedia.org/resource/Feedback>
+	owl:sameAs <http://dbpedia.org/resource/Market_analysis>
+	owl:sameAs <http://dbpedia.org/resource/List_of_DOS_commands>
+	owl:sameAs <http://dbpedia.org/resource/DVLP>
+	owl:sameAs <http://dbpedia.org/resource/VIDgital>
+	owl:sameAs <http://dbpedia.org/resource/Marketing>
+
+course:049344
+	owl:sameAs <http://dbpedia.org/resource/Theory>
+	owl:sameAs <http://dbpedia.org/resource/Documentary_film>
+	owl:sameAs <http://dbpedia.org/resource/Web_documentary>
+	owl:sameAs <http://dbpedia.org/resource/Direct_Cinema>
+	owl:sameAs <http://dbpedia.org/resource/Ethnography>
+	owl:sameAs <http://dbpedia.org/resource/Independent_film>
+	owl:sameAs <http://dbpedia.org/resource/Idiom>
+	owl:sameAs <http://dbpedia.org/resource/Aesthetics>
+	owl:sameAs <http://dbpedia.org/resource/Ethics>
+	owl:sameAs <http://dbpedia.org/resource/Cross-genre>
+	owl:sameAs <http://dbpedia.org/resource/Filmmaking>
+	owl:sameAs <http://dbpedia.org/resource/Non-fiction>
+
+course:008776
+	owl:sameAs <http://dbpedia.org/resource/Popular_culture>
+	owl:sameAs <http://dbpedia.org/resource/Martell_Webster>
+	owl:sameAs <http://dbpedia.org/resource/Court>
+	owl:sameAs <http://dbpedia.org/resource/English_literature>
+	owl:sameAs <http://dbpedia.org/resource/Khris_Middleton>
+	owl:sameAs <http://dbpedia.org/resource/Ford_Motor_Company>
+	owl:sameAs <http://dbpedia.org/resource/Christopher_Marlowe>
+	owl:sameAs <http://dbpedia.org/resource/Social_history>
+
+course:048041
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Health>
+	owl:sameAs <http://dbpedia.org/resource/Richard_Owen>
+	owl:sameAs <http://dbpedia.org/resource/Nursing>
+	owl:sameAs <http://dbpedia.org/resource/Outline_of_history>
+	owl:sameAs <http://dbpedia.org/resource/Moran_Town>
+	owl:sameAs <http://dbpedia.org/resource/Food>
+	owl:sameAs <http://dbpedia.org/resource/McGill_University>
+	owl:sameAs <http://dbpedia.org/resource/Healthy_diet>
+	owl:sameAs <http://dbpedia.org/resource/Master_of_Science>
+
+course:029869
+	owl:sameAs <http://dbpedia.org/resource/Chinese_language>
+	owl:sameAs <http://dbpedia.org/resource/Chinese_Buddhism>
+	owl:sameAs <http://dbpedia.org/resource/Reli_language>
+	owl:sameAs <http://dbpedia.org/resource/Taoism>
+	owl:sameAs <http://dbpedia.org/resource/Civilization>
+	owl:sameAs <http://dbpedia.org/resource/Chinese_folk_religion>
+	owl:sameAs <http://dbpedia.org/resource/Classical_antiquity>
+	owl:sameAs <http://dbpedia.org/resource/Ford_Focus>
+	owl:sameAs <http://dbpedia.org/resource/Confucianism>
+	owl:sameAs <http://dbpedia.org/resource/History_of_China>
+
+course:022983
+	owl:sameAs <http://dbpedia.org/resource/United_States>
+	owl:sameAs <http://dbpedia.org/resource/Canada>
+	owl:sameAs <http://dbpedia.org/resource/Non-fiction>
+	owl:sameAs <http://dbpedia.org/resource/United_Kingdom>
+
+course:023126
+	owl:sameAs <http://dbpedia.org/resource/Black_people>
+	owl:sameAs <http://dbpedia.org/resource/Friedrich_Nietzsche>
+	owl:sameAs <http://dbpedia.org/resource/Religion>
+	owl:sameAs <http://dbpedia.org/resource/Genealogy>
+	owl:sameAs <http://dbpedia.org/resource/Confessions_Tour>
+	owl:sameAs <http://dbpedia.org/resource/Paradise_Lost>
+	owl:sameAs <http://dbpedia.org/resource/Music>
+	owl:sameAs <http://dbpedia.org/resource/Philosophy>
+
+course:030094
+	owl:sameAs <http://dbpedia.org/resource/Tantra>
+	owl:sameAs <http://dbpedia.org/resource/Middle_Ages>
+	owl:sameAs <http://dbpedia.org/resource/Advaita_Vedanta>
+	owl:sameAs <http://dbpedia.org/resource/South_Asia>
+	owl:sameAs <http://dbpedia.org/resource/Hinduism>
+	owl:sameAs <http://dbpedia.org/resource/Classical_antiquity>
+	owl:sameAs <http://dbpedia.org/resource/Treats>
+	owl:sameAs <http://dbpedia.org/resource/Medieval_India>
+
+course:049318
+	owl:sameAs <http://dbpedia.org/resource/Delegate>
+	owl:sameAs <http://dbpedia.org/resource/Management>
+	owl:sameAs <http://dbpedia.org/resource/Mo_Foster>
+	owl:sameAs <http://dbpedia.org/resource/Synergy>
+	owl:sameAs <http://dbpedia.org/resource/Carbon_nanotube>
+	owl:sameAs <http://dbpedia.org/resource/List_of_DOS_commands>
+	owl:sameAs <http://dbpedia.org/resource/VIDgital>
+	owl:sameAs <http://dbpedia.org/resource/Time_management>
+
+course:047755
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Guaranteed_investment_contract>
+	owl:sameAs <http://dbpedia.org/resource/Canada>
+	owl:sameAs <http://dbpedia.org/resource/Exchange-traded_fund>
+	owl:sameAs <http://dbpedia.org/resource/Finance>
+	owl:sameAs <http://dbpedia.org/resource/Risk_factor>
+	owl:sameAs <http://dbpedia.org/resource/Neuroscience>
+	owl:sameAs <http://dbpedia.org/resource/Economics>
+	owl:sameAs <http://dbpedia.org/resource/Investment>
+	owl:sameAs <http://dbpedia.org/resource/Doctor_of_Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Stock_market>
+	owl:sameAs <http://dbpedia.org/resource/Real_estate_investment_trust>
+	owl:sameAs <http://dbpedia.org/resource/Alex_Wilder>
+	owl:sameAs <http://dbpedia.org/resource/Science>
+	owl:sameAs <http://dbpedia.org/resource/The_Workshop_(Smash)>
+	owl:sameAs <http://dbpedia.org/resource/Gambling>
+	owl:sameAs <http://dbpedia.org/resource/Sound>
+	owl:sameAs <http://dbpedia.org/resource/Social_policy>
+	owl:sameAs <http://dbpedia.org/resource/British_Association_for_Immediate_Care>
+
+course:029907
+	owl:sameAs <http://dbpedia.org/resource/Same-sex_relationship>
+	owl:sameAs <http://dbpedia.org/resource/Parenting>
+	owl:sameAs <http://dbpedia.org/resource/Celibacy>
+	owl:sameAs <http://dbpedia.org/resource/Marriage_in_The_Church_of_Jesus_Christ_of_Latter-day_Saints>
+	owl:sameAs <http://dbpedia.org/resource/Religious_text>
+	owl:sameAs <http://dbpedia.org/resource/Human_sexuality>
+	owl:sameAs <http://dbpedia.org/resource/Judaism>
+	owl:sameAs <http://dbpedia.org/resource/Reli_language>
+	owl:sameAs <http://dbpedia.org/resource/Christian>
+	owl:sameAs <http://dbpedia.org/resource/Sexual_identity>
+	owl:sameAs <http://dbpedia.org/resource/Sexual_desire>
+	owl:sameAs <http://dbpedia.org/resource/Bible>
+	owl:sameAs <http://dbpedia.org/resource/Gender>
+	owl:sameAs <http://dbpedia.org/resource/Human_reproduction>
+	owl:sameAs <http://dbpedia.org/resource/Light>
+
+course:033568
+	owl:sameAs <http://dbpedia.org/resource/Poisson_point_process>
+	owl:sameAs <http://dbpedia.org/resource/Discrete_time_and_continuous_time>
+	owl:sameAs <http://dbpedia.org/resource/Stochastic_process>
+	owl:sameAs <http://dbpedia.org/resource/Markov_chain>
+	owl:sameAs <http://dbpedia.org/resource/Mathematics>
+
+course:032147
+	owl:sameAs <http://dbpedia.org/resource/Vernacular_literature>
+	owl:sameAs <http://dbpedia.org/resource/Hispanic_America>
+	owl:sameAs <http://dbpedia.org/resource/Fashion>
+	owl:sameAs <http://dbpedia.org/resource/Spanish_Empire>
+	owl:sameAs <http://dbpedia.org/resource/Biblical_canon>
+	owl:sameAs <http://dbpedia.org/resource/Role>
+	owl:sameAs <http://dbpedia.org/resource/Reconquista>
+	owl:sameAs <http://dbpedia.org/resource/Culture>
+	owl:sameAs <http://dbpedia.org/resource/Oral_literature>
+
+course:034471
+	owl:sameAs <http://dbpedia.org/resource/Charlotte_Selver>
+	owl:sameAs <http://dbpedia.org/resource/Acting>
+	owl:sameAs <http://dbpedia.org/resource/Attentional_control>
+	owl:sameAs <http://dbpedia.org/resource/Improvisation>
+	owl:sameAs <http://dbpedia.org/resource/Space>
+	owl:sameAs <http://dbpedia.org/resource/Human_voice>
+
+course:034472
+	owl:sameAs <http://dbpedia.org/resource/Lexical_analysis>
+	owl:sameAs <http://dbpedia.org/resource/Drama>
+	owl:sameAs <http://dbpedia.org/resource/Actor>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+
+course:034493
+	owl:sameAs <http://dbpedia.org/resource/Drama>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Musical_improvisation>
+	owl:sameAs <http://dbpedia.org/resource/Rhythm>
+
+course:034501
+	owl:sameAs <http://dbpedia.org/resource/Mask>
+
+course:049227
+	owl:sameAs <http://dbpedia.org/resource/Citizenship>
+	owl:sameAs <http://dbpedia.org/resource/Transnational_feminism>
+	owl:sameAs <http://dbpedia.org/resource/Human_sexuality>
+	owl:sameAs <http://dbpedia.org/resource/Seminar>
+	owl:sameAs <http://dbpedia.org/resource/Interdisciplinarity>
+	owl:sameAs <http://dbpedia.org/resource/Gender>
+	owl:sameAs <http://dbpedia.org/resource/Postcolonialism>
+	owl:sameAs <http://dbpedia.org/resource/Feminist_theory>
+	owl:sameAs <http://dbpedia.org/resource/Critical_race_theory>
+	owl:sameAs <http://dbpedia.org/resource/Consumerism>
+	owl:sameAs <http://dbpedia.org/resource/Commodification>
+	owl:sameAs <http://dbpedia.org/resource/Tourism>
+	owl:sameAs <http://dbpedia.org/resource/GCE_Advanced_Level>
+	owl:sameAs <http://dbpedia.org/resource/Interpersonal_relationship>
+	owl:sameAs <http://dbpedia.org/resource/Marketing>
+	owl:sameAs <http://dbpedia.org/resource/Fantasy_tropes>
+
+course:049290
+	owl:sameAs <http://dbpedia.org/resource/Rate_of_profit>
+	owl:sameAs <http://dbpedia.org/resource/Project_management>
+	owl:sameAs <http://dbpedia.org/resource/Financial_plan>
+	owl:sameAs <http://dbpedia.org/resource/Carbon_nanotube>
+	owl:sameAs <http://dbpedia.org/resource/Total_quality_management>
+	owl:sameAs <http://dbpedia.org/resource/Business_process>
+	owl:sameAs <http://dbpedia.org/resource/Risk_management>
+	owl:sameAs <http://dbpedia.org/resource/List_of_DOS_commands>
+	owl:sameAs <http://dbpedia.org/resource/VIDgital>
+	owl:sameAs <http://dbpedia.org/resource/British_Association_for_Immediate_Care>
+
+course:028756
+	owl:sameAs <http://dbpedia.org/resource/Opiate>
+	owl:sameAs <http://dbpedia.org/resource/Alcohol>
+	owl:sameAs <http://dbpedia.org/resource/Derivative>
+	owl:sameAs <http://dbpedia.org/resource/Psychology>
+	owl:sameAs <http://dbpedia.org/resource/Recreational_drug_use>
+	owl:sameAs <http://dbpedia.org/resource/Psychedelic_drug>
+	owl:sameAs <http://dbpedia.org/resource/Depressant>
+	owl:sameAs <http://dbpedia.org/resource/Nicotine>
+	owl:sameAs <http://dbpedia.org/resource/Physiology>
+	owl:sameAs <http://dbpedia.org/resource/Stimulant>
+	owl:sameAs <http://dbpedia.org/resource/Tranquilizer>
+
+course:023669
+	owl:sameAs <http://dbpedia.org/resource/Economics>
+	owl:sameAs <http://dbpedia.org/resource/Perception>
+	owl:sameAs <http://dbpedia.org/resource/Critical_thinking>
+	owl:sameAs <http://dbpedia.org/resource/Postcolonialism>
+	owl:sameAs <http://dbpedia.org/resource/Peace>
+	owl:sameAs <http://dbpedia.org/resource/Bibliography>
+	owl:sameAs <http://dbpedia.org/resource/Colonialism>
+
+course:049203
+	owl:sameAs <http://dbpedia.org/resource/Human_sexuality>
+	owl:sameAs <http://dbpedia.org/resource/Seminar>
+	owl:sameAs <http://dbpedia.org/resource/Learning>
+	owl:sameAs <http://dbpedia.org/resource/Feminism>
+	owl:sameAs <http://dbpedia.org/resource/Intersectionality>
+
+course:037094
+	owl:sameAs <http://dbpedia.org/resource/Higher_education>
+	owl:sameAs <http://dbpedia.org/resource/Thiago_Silva>
+	owl:sameAs <http://dbpedia.org/resource/Methodology>
+	owl:sameAs <http://dbpedia.org/resource/Master_of_Fine_Arts>
+	owl:sameAs <http://dbpedia.org/resource/Robotics>
+	owl:sameAs <http://dbpedia.org/resource/List_of_female_scientists_before_the_20th_century>
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Educational_technology>
+	owl:sameAs <http://dbpedia.org/resource/Doctor_of_Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Adobe_Photoshop>
+	owl:sameAs <http://dbpedia.org/resource/Actor–network_theory>
+	owl:sameAs <http://dbpedia.org/resource/Emily_Carr>
+	owl:sameAs <http://dbpedia.org/resource/Photography>
+	owl:sameAs <http://dbpedia.org/resource/Adobe_Systems>
+	owl:sameAs <http://dbpedia.org/resource/Bachelor_of_Fine_Arts>
+
+course:013938
+	owl:sameAs <http://dbpedia.org/resource/Immigration_to_Canada>
+	owl:sameAs <http://dbpedia.org/resource/Forced_migration>
+	owl:sameAs <http://dbpedia.org/resource/Canada>
+	owl:sameAs <http://dbpedia.org/resource/Culture_of_Canada>
+	owl:sameAs <http://dbpedia.org/resource/Infra-red_search_and_track>
+	owl:sameAs <http://dbpedia.org/resource/Irish_language>
+	owl:sameAs <http://dbpedia.org/resource/Human_settlement>
+	owl:sameAs <http://dbpedia.org/resource/Newfoundland_and_Labrador>
+	owl:sameAs <http://dbpedia.org/resource/Irish_diaspora>
+	owl:sameAs <http://dbpedia.org/resource/Fisherman>
+	owl:sameAs <http://dbpedia.org/resource/Republic_of_Ireland>
+	owl:sameAs <http://dbpedia.org/resource/Famine>
+
+course:025859
+	owl:sameAs <http://dbpedia.org/resource/Musi_language>
+
+course:041998
+	owl:sameAs <http://dbpedia.org/resource/Private_Lessons_(1981_film)>
+	owl:sameAs <http://dbpedia.org/resource/Jury>
+	owl:sameAs <http://dbpedia.org/resource/Concert>
+
+course:049109
+	owl:sameAs <http://dbpedia.org/resource/ANTH_domain>
+	owl:sameAs <http://dbpedia.org/resource/Asexuality>
+	owl:sameAs <http://dbpedia.org/resource/Religion>
+	owl:sameAs <http://dbpedia.org/resource/Divorce>
+	owl:sameAs <http://dbpedia.org/resource/Human_sexuality>
+	owl:sameAs <http://dbpedia.org/resource/Same-sex_marriage>
+	owl:sameAs <http://dbpedia.org/resource/Homosexuality>
+	owl:sameAs <http://dbpedia.org/resource/Sexual_identity>
+	owl:sameAs <http://dbpedia.org/resource/Racism>
+	owl:sameAs <http://dbpedia.org/resource/Alcoholism>
+	owl:sameAs <http://dbpedia.org/resource/Gender_bender>
+	owl:sameAs <http://dbpedia.org/resource/Infra-red_search_and_track>
+	owl:sameAs <http://dbpedia.org/resource/Irish_language>
+	owl:sameAs <http://dbpedia.org/resource/Propaganda>
+	owl:sameAs <http://dbpedia.org/resource/Irish_diaspora>
+	owl:sameAs <http://dbpedia.org/resource/Virginity>
+	owl:sameAs <http://dbpedia.org/resource/Miroslovești>
+	owl:sameAs <http://dbpedia.org/resource/Sexual_assault>
+
+course:004753
+	owl:sameAs <http://dbpedia.org/resource/Common_Era>
+	owl:sameAs <http://dbpedia.org/resource/Alexander_the_Great>
+	owl:sameAs <http://dbpedia.org/resource/CLAS_detector>
+	owl:sameAs <http://dbpedia.org/resource/Ancient_Greece>
+	owl:sameAs <http://dbpedia.org/resource/Roman_Empire>
+	owl:sameAs <http://dbpedia.org/resource/Cultural_history>
+
+course:047763
+	owl:sameAs <http://dbpedia.org/resource/Storytelling>
+	owl:sameAs <http://dbpedia.org/resource/Oral_history>
+	owl:sameAs <http://dbpedia.org/resource/Telling_Stories>
+
+course:047764
+	owl:sameAs <http://dbpedia.org/resource/Association_of_Cinematograph,_Television_and_Allied_Technicians>
+
+course:034503
+	owl:sameAs <http://dbpedia.org/resource/Laboratory>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Phrase_(music)>
+	owl:sameAs <http://dbpedia.org/resource/Manner_of_articulation>
+	owl:sameAs <http://dbpedia.org/resource/Sound_recording_and_reproduction>
+
+course:034504
+	owl:sameAs <http://dbpedia.org/resource/Language>
+
+course:034521
+	owl:sameAs <http://dbpedia.org/resource/Stage_combat>
+	owl:sameAs <http://dbpedia.org/resource/Charles_Paul_Alexander>
+	owl:sameAs <http://dbpedia.org/resource/Rudolf_von_Laban>
+	owl:sameAs <http://dbpedia.org/resource/Acrobatics>
+
+course:013552
+	owl:sameAs <http://dbpedia.org/resource/German_language>
+	owl:sameAs <http://dbpedia.org/resource/Acquainted>
+	owl:sameAs <http://dbpedia.org/resource/Allegory>
+	owl:sameAs <http://dbpedia.org/resource/English_language>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Metaphysics>
+
+course:044045
+	owl:sameAs <http://dbpedia.org/resource/Web_browser>
+	owl:sameAs <http://dbpedia.org/resource/Le_Travail-Le_Droit_du_Peuple>
+	owl:sameAs <http://dbpedia.org/resource/Instrument_landing_system_localizer>
+	owl:sameAs <http://dbpedia.org/resource/Actors_(film)>
+	owl:sameAs <http://dbpedia.org/resource/Fender_Stratocaster>
+	owl:sameAs <http://dbpedia.org/resource/Ontario>
+	owl:sameAs <http://dbpedia.org/resource/List_of_Degrassi:_The_Next_Generation_characters>
+	owl:sameAs <http://dbpedia.org/resource/Source_code>
+	owl:sameAs <http://dbpedia.org/resource/X86_instruction_listings>
+	owl:sameAs <http://dbpedia.org/resource/Cambodian_riel>
+	owl:sameAs <http://dbpedia.org/resource/Processus_(Kingdom_of_Hungary)>
+	owl:sameAs <http://dbpedia.org/resource/Localis>
+	owl:sameAs <http://dbpedia.org/resource/Marketing>
+	owl:sameAs <http://dbpedia.org/resource/State_Agency_for_National_Security>
+
+course:008665
+	owl:sameAs <http://dbpedia.org/resource/Geoffrey_Chaucer>
+	owl:sameAs <http://dbpedia.org/resource/Martell_Webster>
+	owl:sameAs <http://dbpedia.org/resource/United_Kingdom>
+	owl:sameAs <http://dbpedia.org/resource/Middle_Ages>
+	owl:sameAs <http://dbpedia.org/resource/Old_English>
+	owl:sameAs <http://dbpedia.org/resource/John_Skelton>
+	owl:sameAs <http://dbpedia.org/resource/Sidney_(surname)>
+	owl:sameAs <http://dbpedia.org/resource/Emilia_Lanier>
+	owl:sameAs <http://dbpedia.org/resource/Beowulf>
+	owl:sameAs <http://dbpedia.org/resource/Medieval_theatre>
+	owl:sameAs <http://dbpedia.org/resource/Julian_calendar>
+	owl:sameAs <http://dbpedia.org/resource/Translation>
+	owl:sameAs <http://dbpedia.org/resource/Richard_Francis_Burton>
+	owl:sameAs <http://dbpedia.org/resource/John_Milton>
+	owl:sameAs <http://dbpedia.org/resource/Edmund_Spenser>
+	owl:sameAs <http://dbpedia.org/resource/William_Shakespeare>
+	owl:sameAs <http://dbpedia.org/resource/Norwich>
+	owl:sameAs <http://dbpedia.org/resource/James_Wyatt>
+
+course:011320
+	owl:sameAs <http://dbpedia.org/resource/Agenzia_Informazioni_e_Sicurezza_Esterna>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/State_Agency_for_National_Security>
+
+course:048181
+	owl:sameAs <http://dbpedia.org/resource/Email>
+	owl:sameAs <http://dbpedia.org/resource/Canada>
+	owl:sameAs <http://dbpedia.org/resource/Natural_science>
+	owl:sameAs <http://dbpedia.org/resource/Master's_degree>
+	owl:sameAs <http://dbpedia.org/resource/Canadians>
+	owl:sameAs <http://dbpedia.org/resource/Permanent_residency>
+	owl:sameAs <http://dbpedia.org/resource/Thesis>
+	owl:sameAs <http://dbpedia.org/resource/Doctor_of_Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Bell_Canada>
+	owl:sameAs <http://dbpedia.org/resource/Natural_Sciences_and_Engineering_Research_Council>
+	owl:sameAs <http://dbpedia.org/resource/Alexander_the_Great>
+	owl:sameAs <http://dbpedia.org/resource/Engineering>
+	owl:sameAs <http://dbpedia.org/resource/Benjamin_Graham>
+	owl:sameAs <http://dbpedia.org/resource/Postgraduate_education>
+	owl:sameAs <http://dbpedia.org/resource/Undergraduate_education>
+
+course:049110
+	owl:sameAs <http://dbpedia.org/resource/Popular_culture>
+	owl:sameAs <http://dbpedia.org/resource/Unionism_in_Ireland>
+	owl:sameAs <http://dbpedia.org/resource/The_Troubles>
+	owl:sameAs <http://dbpedia.org/resource/Institutional_abuse>
+	owl:sameAs <http://dbpedia.org/resource/Irish_nationalism>
+	owl:sameAs <http://dbpedia.org/resource/Scholarship>
+	owl:sameAs <http://dbpedia.org/resource/Northern_Ireland>
+	owl:sameAs <http://dbpedia.org/resource/Interdisciplinarity>
+	owl:sameAs <http://dbpedia.org/resource/Williamite_War_in_Ireland>
+	owl:sameAs <http://dbpedia.org/resource/Forgetting>
+	owl:sameAs <http://dbpedia.org/resource/Independence>
+	owl:sameAs <http://dbpedia.org/resource/Holodomor>
+	owl:sameAs <http://dbpedia.org/resource/Infra-red_search_and_track>
+	owl:sameAs <http://dbpedia.org/resource/Seminar>
+	owl:sameAs <http://dbpedia.org/resource/Irish_diaspora>
+	owl:sameAs <http://dbpedia.org/resource/Case_study>
+	owl:sameAs <http://dbpedia.org/resource/World_War_I>
+	owl:sameAs <http://dbpedia.org/resource/Ireland>
+	owl:sameAs <http://dbpedia.org/resource/Memory>
+	owl:sameAs <http://dbpedia.org/resource/Irish_Rebellion_of_1641>
+	owl:sameAs <http://dbpedia.org/resource/Irish_Rebellion_of_1798>
+	owl:sameAs <http://dbpedia.org/resource/Irish_revolutionary_period>
+
+course:047569
+	owl:sameAs <http://dbpedia.org/resource/Educational_technology>
+	owl:sameAs <http://dbpedia.org/resource/Moodle>
+	owl:sameAs <http://dbpedia.org/resource/Blended_whiskey>
+	owl:sameAs <http://dbpedia.org/resource/Alicia_Gallagher>
+	owl:sameAs <http://dbpedia.org/resource/Blended_learning>
+	owl:sameAs <http://dbpedia.org/resource/Hybrid_electric_vehicle>
+
+course:049250
+	owl:sameAs <http://dbpedia.org/resource/Physics>
+	owl:sameAs <http://dbpedia.org/resource/Experimental_physics>
+	owl:sameAs <http://dbpedia.org/resource/Experiment>
+	owl:sameAs <http://dbpedia.org/resource/Scientific_communication>
+	owl:sameAs <http://dbpedia.org/resource/Data_analysis>
+
+course:049187
+	owl:sameAs <http://dbpedia.org/resource/Human>
+	owl:sameAs <http://dbpedia.org/resource/Social_science>
+	owl:sameAs <http://dbpedia.org/resource/ANTH_domain>
+	owl:sameAs <http://dbpedia.org/resource/Environmental_studies>
+	owl:sameAs <http://dbpedia.org/resource/Literature>
+	owl:sameAs <http://dbpedia.org/resource/Cybernetics>
+	owl:sameAs <http://dbpedia.org/resource/Philosophy>
+	owl:sameAs <http://dbpedia.org/resource/Anthropology>
+
+course:023074
+	owl:sameAs <http://dbpedia.org/resource/Instrumental>
+	owl:sameAs <http://dbpedia.org/resource/Jazz>
+	owl:sameAs <http://dbpedia.org/resource/Private_Lessons_(1981_film)>
+	owl:sameAs <http://dbpedia.org/resource/Musi_language>
+
+course:041603
+	owl:sameAs <http://dbpedia.org/resource/Musi_language>
+
+course:041955
+	owl:sameAs <http://dbpedia.org/resource/Private_Lessons_(1981_film)>
+	owl:sameAs <http://dbpedia.org/resource/Musi_language>
+
+course:048398
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Film_director>
+	owl:sameAs <http://dbpedia.org/resource/Literature>
+	owl:sameAs <http://dbpedia.org/resource/Irish_language>
+	owl:sameAs <http://dbpedia.org/resource/Learning>
+	owl:sameAs <http://dbpedia.org/resource/Music>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Republic_of_Ireland>
+	owl:sameAs <http://dbpedia.org/resource/Independent_school>
+
+course:008848
+	owl:sameAs <http://dbpedia.org/resource/Left-wing_politics>
+	owl:sameAs <http://dbpedia.org/resource/Imagism>
+	owl:sameAs <http://dbpedia.org/resource/Right-wing_politics>
+	owl:sameAs <http://dbpedia.org/resource/Christian_revival>
+	owl:sameAs <http://dbpedia.org/resource/World_War_II>
+	owl:sameAs <http://dbpedia.org/resource/Wales>
+	owl:sameAs <http://dbpedia.org/resource/Queen_Victoria>
+	owl:sameAs <http://dbpedia.org/resource/Bloomsbury_Group>
+	owl:sameAs <http://dbpedia.org/resource/Nationalism>
+	owl:sameAs <http://dbpedia.org/resource/British_literature>
+	owl:sameAs <http://dbpedia.org/resource/Militant>
+	owl:sameAs <http://dbpedia.org/resource/Vorticism>
+	owl:sameAs <http://dbpedia.org/resource/Republic_of_Ireland>
+	owl:sameAs <http://dbpedia.org/resource/Scotland>
+	owl:sameAs <http://dbpedia.org/resource/Modernism>
+	owl:sameAs <http://dbpedia.org/resource/Suffragette>
+
+course:049171
+	owl:sameAs <http://dbpedia.org/resource/Pathophysiology>
+	owl:sameAs <http://dbpedia.org/resource/Oncology>
+	owl:sameAs <http://dbpedia.org/resource/Circulatory_system>
+	owl:sameAs <http://dbpedia.org/resource/Metabolic_disorder>
+	owl:sameAs <http://dbpedia.org/resource/World_War_II>
+	owl:sameAs <http://dbpedia.org/resource/Pulmonology>
+
+course:025279
+	owl:sameAs <http://dbpedia.org/resource/Mandarin_Chinese>
+	owl:sameAs <http://dbpedia.org/resource/Education>
+	owl:sameAs <http://dbpedia.org/resource/Grammar>
+	owl:sameAs <http://dbpedia.org/resource/Listening>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Sound_recording_and_reproduction>
+
+course:049225
+	owl:sameAs <http://dbpedia.org/resource/BM-21_Grad>
+
+course:023543
+	owl:sameAs <http://dbpedia.org/resource/Linear_B>
+	owl:sameAs <http://dbpedia.org/resource/Clay_tablet>
+	owl:sameAs <http://dbpedia.org/resource/Mycenaean_Greek>
+	owl:sameAs <http://dbpedia.org/resource/Syllabary>
+	owl:sameAs <http://dbpedia.org/resource/Common_Era>
+	owl:sameAs <http://dbpedia.org/resource/Greek_alphabet>
+	owl:sameAs <http://dbpedia.org/resource/Language>
+	owl:sameAs <http://dbpedia.org/resource/Transliteration>
+
+course:048480
+	owl:sameAs <http://dbpedia.org/resource/Polishing>
+	owl:sameAs <http://dbpedia.org/resource/Football_pitch>
+	owl:sameAs <http://dbpedia.org/resource/Shari_Arison>
+	owl:sameAs <http://dbpedia.org/resource/Exegesis>
+	owl:sameAs <http://dbpedia.org/resource/Journalism>
+	owl:sameAs <http://dbpedia.org/resource/Conscription_in_the_United_States>
+	owl:sameAs <http://dbpedia.org/resource/Facilitator>
+	owl:sameAs <http://dbpedia.org/resource/Feedback>
+
+course:037317
+	owl:sameAs <http://dbpedia.org/resource/West_Port,_Edinburgh>
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Emergency_Health_Services>
+	owl:sameAs <http://dbpedia.org/resource/Heinrich_Dumoulin>
+	owl:sameAs <http://dbpedia.org/resource/Radiation_Safety_Officer>
+	owl:sameAs <http://dbpedia.org/resource/Samuel_Franklin_Cody>
+	owl:sameAs <http://dbpedia.org/resource/Teaching_assistant>
+	owl:sameAs <http://dbpedia.org/resource/Engineering>
+	owl:sameAs <http://dbpedia.org/resource/Computer_science>
+
+course:047781
+	owl:sameAs <http://dbpedia.org/resource/Camera_lens>
+	owl:sameAs <http://dbpedia.org/resource/Postcolonialism>
+	owl:sameAs <http://dbpedia.org/resource/Themed_Entertainment_Association>
+	owl:sameAs <http://dbpedia.org/resource/Queer_theory>
+	owl:sameAs <http://dbpedia.org/resource/Canon_law>
+
+course:000026
+	owl:sameAs <http://dbpedia.org/resource/Manufacturing>
+	owl:sameAs <http://dbpedia.org/resource/Accounting>
+	owl:sameAs <http://dbpedia.org/resource/Engineering>
+	owl:sameAs <http://dbpedia.org/resource/Acre,_Israel>
+	owl:sameAs <http://dbpedia.org/resource/John_Molson_School_of_Business>
+
+course:000027
+	owl:sameAs <http://dbpedia.org/resource/Accounting>
+	owl:sameAs <http://dbpedia.org/resource/Investment>
+	owl:sameAs <http://dbpedia.org/resource/Comm>
+	owl:sameAs <http://dbpedia.org/resource/Acre,_Israel>
+	owl:sameAs <http://dbpedia.org/resource/Financial_statement>
+	owl:sameAs <http://dbpedia.org/resource/Measurement>
+	owl:sameAs <http://dbpedia.org/resource/John_Molson_School_of_Business>
+
+course:037036
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Communication_studies>
+	owl:sameAs <http://dbpedia.org/resource/Cover_letter>
+	owl:sameAs <http://dbpedia.org/resource/Curriculum_vitae>
+	owl:sameAs <http://dbpedia.org/resource/Bachelor_of_Fine_Arts>
+	owl:sameAs <http://dbpedia.org/resource/BM-21_Grad>
+	owl:sameAs <http://dbpedia.org/resource/Francine_Smith>
+
+course:031424
+	owl:sameAs <http://dbpedia.org/resource/ANTH_domain>
+	owl:sameAs <http://dbpedia.org/resource/Role_theory>
+	owl:sameAs <http://dbpedia.org/resource/Discrimination>
+	owl:sameAs <http://dbpedia.org/resource/Ethnic_group>
+	owl:sameAs <http://dbpedia.org/resource/Prejudice>
+	owl:sameAs <http://dbpedia.org/resource/Ingroups_and_outgroups>
+	owl:sameAs <http://dbpedia.org/resource/Social_stratification>
+
+course:049356
+	owl:sameAs <http://dbpedia.org/resource/Calendar>
+	owl:sameAs <http://dbpedia.org/resource/BM-21_Grad>
+
+course:049358
+	owl:sameAs <http://dbpedia.org/resource/Calendar>
+	owl:sameAs <http://dbpedia.org/resource/BM-21_Grad>
+
+course:045730
+	owl:sameAs <http://dbpedia.org/resource/Decision-making>
+	owl:sameAs <http://dbpedia.org/resource/Intelligence>
+	owl:sameAs <http://dbpedia.org/resource/Artificial_neural_network>
+	owl:sameAs <http://dbpedia.org/resource/Memory>
+	owl:sameAs <http://dbpedia.org/resource/Philosophy_of_language>
+	owl:sameAs <http://dbpedia.org/resource/Cognitive_science>
+	owl:sameAs <http://dbpedia.org/resource/Language_development>
+	owl:sameAs <http://dbpedia.org/resource/Psychology>
+	owl:sameAs <http://dbpedia.org/resource/Concept_learning>
+
+course:048478
+	owl:sameAs <http://dbpedia.org/resource/Senior_Advisor_to_the_President_of_the_United_States>
+	owl:sameAs <http://dbpedia.org/resource/Chlorine>
+	owl:sameAs <http://dbpedia.org/resource/Concordia_University>
+	owl:sameAs <http://dbpedia.org/resource/Desjardins_Group>
+	owl:sameAs <http://dbpedia.org/resource/Peer_review>
+	owl:sameAs <http://dbpedia.org/resource/Contexts>
+	owl:sameAs <http://dbpedia.org/resource/Landscape>
+	owl:sameAs <http://dbpedia.org/resource/C_syntax>
+	owl:sameAs <http://dbpedia.org/resource/International>
+	owl:sameAs <http://dbpedia.org/resource/Press_release>
+
+course:048084
+	owl:sameAs <http://dbpedia.org/resource/Human>
+	owl:sameAs <http://dbpedia.org/resource/Social_science>
+	owl:sameAs <http://dbpedia.org/resource/John_Molson_School_of_Business>
+	owl:sameAs <http://dbpedia.org/resource/Consumer_behaviour>
+	owl:sameAs <http://dbpedia.org/resource/Culture>
+	owl:sameAs <http://dbpedia.org/resource/Marketing>
+	owl:sameAs <http://dbpedia.org/resource/Starting_Point>
+
+course:049404
+	owl:sameAs <http://dbpedia.org/resource/LGBT>
+	owl:sameAs <http://dbpedia.org/resource/Community_organizing>
+	owl:sameAs <http://dbpedia.org/resource/Indigenous_rights>
+	owl:sameAs <http://dbpedia.org/resource/Religious_Studies_Center>
+	owl:sameAs <http://dbpedia.org/resource/Toleration>
+	owl:sameAs <http://dbpedia.org/resource/Grassroots>
+	owl:sameAs <http://dbpedia.org/resource/Social_justice>
+	owl:sameAs <http://dbpedia.org/resource/Racism>
+	owl:sameAs <http://dbpedia.org/resource/Disability>
+	owl:sameAs <http://dbpedia.org/resource/Spirituality>
+	owl:sameAs <http://dbpedia.org/resource/Ethics>
+	owl:sameAs <http://dbpedia.org/resource/Islamophobia>
+	owl:sameAs <http://dbpedia.org/resource/Computer_programming>
