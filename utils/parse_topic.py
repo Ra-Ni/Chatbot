@@ -97,7 +97,7 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
 
                 if buffer:
                     buffer = ';\n'.join([f'\t{owl_acronym}:sameAs <{uri}>' for uri in buffer])
-                    writer.write(f'\n\n{course}\n{buffer}')
+                    writer.write(f'\n\n{course}\n{buffer}.')
 
                 line = reader.readline()
 

@@ -21,7 +21,6 @@ class NordVPNClient:
         'Bosnia_And_Herzegovina',
         'Singapore',
         'Brazil',
-        'Indonesia',
         'Slovakia',
         'Bulgaria',
         'Ireland',
