@@ -20,11 +20,16 @@ def parse_descriptions(target: typing.Union[str, bytes, int], output: typing.Uni
             for course in raw_data:
                 print(f"Parsing: {course['ID']}")
 
-                # remove all prereqs from the description
-                description = re.sub("Prerequisite.*\.", "", course["description"])
-                # The notes in the description are useless too
-                description = re.sub("NOTE|Note:.*\.", "", description)
-
+                #removing references to grad/ugrad calendars
+                description = re.sub ("(Please|See) .*alendar\.*|(PLEASE )?SEE .*DAR(\.)?", "", course["description"])
+                # Removing other strange strings from descriptions
+                description = re.sub ("\*\*\*(PLESE)*", "", description)
+                description = re.sub ("\*VID\*\n*\*KEYB\*\n|\*VID\*\n|\*(CNT|APP)\*", "", description)
+                #Removing unwanted spaces, newlines, quotation marks and other unconventional punctuation
+                description = re.sub ("\"|\*|\n|\r|^ |~*|<.*>", "", description)
+                # The notes in the description are useless, and so are the prerequisities
+                description = re.sub("(IMPORTANT )?NOTE(S)?(:|-).*|Note(s)?(:|-).*", "", description)
+                description = re.sub("Prerequisite.*?[\.!\?](?:\s|$)", "", description) 
 
                 if description != "":
                     description = re.sub("\t|\r\n|\n", "", description)
