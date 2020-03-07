@@ -23,8 +23,8 @@ reset() -> None:
     Reverts to the default public IP address of the device.
 """
 
-import os
 from random import randint
+from subprocess import check_call
 
 
 class NordVPNClient:
@@ -87,9 +87,9 @@ class NordVPNClient:
         self.current_country = randint(0, self._max - 1)
 
     def connect(self):
-        os.system(f'nordvpn connect {NordVPNClient.COUNTRIES[self.current_country]}')
+        check_call(['nordvpn', 'connect', f'{NordVPNClient.COUNTRIES[self.current_country]}'], stdout=None)
         self.current_country = (self.current_country + 1) % self._max
 
     def reset(self):
-        os.system(f'nordvpn disconnect')
-        self.current_country = 0
+        check_call(['nordvpn', 'disconnect'], stdout=None)
+        self.current_country = randint(0, self._max - 1)

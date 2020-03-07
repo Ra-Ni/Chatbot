@@ -71,5 +71,6 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
 
 
 if __name__ == '__main__':
-    fetch('../assets/Courses.json')
-    parse("../assets/Courses.json", "../assets/Courses.ttl")
+    target = '../assets/Courses'
+    fetch(f'{target}_Raw.json')
+    parse(f'{target}_Raw.json', f'{target}.ttl')

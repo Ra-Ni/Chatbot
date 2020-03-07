@@ -4226,7 +4226,7 @@
 	schema:description "This studio course in methods and processes examines interdisciplinary and collaborative strategies of innovative cinematic processes in a diversity of genres. Through a combination of studio experiments, screenings and writings, the course engages topics such as division of labor and disciplinary specialization; poetics of space and temporality; cinematic technologies and exhibition modalities; creative producing strategies; and assessment of experimental processes and outcomes. The course culminates in a presentation of creative work and the thesis project proposal. ".
 
 <course:049109>
-	schema:description "This course investigates the rich history that sex and sexual identities have played in shaping the Irish Diaspora over the past two hundred years. Representations of Irish sexualities and gendered expectations have been a controversial constant in the story of the Irish abroad and their descendants in the global Irish Diaspora. Key themes may include marriage and divorce, homosexuality, asexuality, racism, virginity, media scandals, heroism, alcoholism, sexual assault, nationalism, propaganda, punishment, gender-bending, and religion.\".
+	schema:description "This course investigates the rich history that sex and sexual identities have played in shaping the Irish Diaspora over the past two hundred years. Representations of Irish sexualities and gendered expectations have been a controversial constant in the story of the Irish abroad and their descendants in the global Irish Diaspora. Key themes may include marriage and divorce, homosexuality, asexuality, racism, virginity, media scandals, heroism, alcoholism, sexual assault, nationalism, propaganda, punishment, gender-bending, and religion.".
 
 <course:004753>
 	schema:description "A political, social, economic, and cultural history of the Greek world from Alexander the Great to the Roman conquest of Greece in 146 BCE.".
@@ -7547,7 +7547,7 @@
 	schema:description "Advanced seminar in a selected topic in Latin American and/or Caribbean history. The emphasis is on encouraging students to conduct historical investigation on their own, under a professor?s guidance. The specific content varies from year to year depending on the instructor.".
 
 <course:049212>
-	schema:description "This course discusses the interaction between syntactic structure and semantic interpretation. The course focuses both on identifying those aspects of structure and interpretation which are related (and on the mechanisms that mediate between the two) and on identifying the areas in which mismatches between structure and interpretation are found (and on possible accounts of these mismatches).\".
+	schema:description "This course discusses the interaction between syntactic structure and semantic interpretation. The course focuses both on identifying those aspects of structure and interpretation which are related (and on the mechanisms that mediate between the two) and on identifying the areas in which mismatches between structure and interpretation are found (and on possible accounts of these mismatches).".
 
 <course:006210>
 	schema:description "This course examines discourse and media texts as forms of representation. Representation is considered in terms of both figure and argument. The course also presents theoretically-informed approaches to the interpretation and criticism of discourses and media texts. Possible theoretical approaches include rhetoric, semiotics, hermeneutics, and speech-act theory.".
