@@ -1,0 +1,6 @@
+CPC = '@prefix cpc: <http://www.conupedia.sytes.net/Course/> .', 'cpc'
+OWL = '@prefix owl: <http://www.w3.org/2002/07/owl#> .', 'owl'
+RDFS = '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .', 'rdfs'
+SCHEMA = '@prefix schema: <http://schema.org/> .', 'schema'
+DBPEDIA_RESOURCE = '@prefix dbr: <http://dbpedia.org/resources/> .', 'dbr'
+XMLSCHEMA = '@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .', 'xsd'
