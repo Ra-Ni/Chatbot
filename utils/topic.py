@@ -1,7 +1,7 @@
 from http.client import RemoteDisconnected
 from json import loads
-from urllib import parse
 from typing import Union
+from urllib.parse import quote
 
 from urllib3.connection import HTTPConnection
 
@@ -9,7 +9,7 @@ from utils import prefixes
 from utils.nordvpn import NordVPNClient
 
 
-def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> None:
+def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> None:
     owl_prefix, owl_acronym = prefixes.OWL
     _, course_acronym = prefixes.COURSE
 
@@ -52,7 +52,7 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
 
                 description = description[description.find("\"") + 1:-3]
                 description = description.replace(' ', '+')
-                description = parse.quote(description, safe='+')
+                description = quote(description, safe='+')
 
                 body['text'] = description
 
@@ -60,12 +60,10 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
                 string_body = '&'.join(string_body)
 
                 headers['Content-Length'] = str(len(string_body))
-                print(course, end='')
 
                 status_code = -1
 
                 while status_code != 200:
-                    print('.', end='')
                     request.request('POST', path, body=string_body, headers=headers)
                     try:
                         response = request.getresponse()
@@ -76,7 +74,6 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
                     if status_code == 200:
                         response = response.read().decode('UTF-8')
                         response = loads(response)
-                        print('OK')
                     else:
                         request.close()
                         nordvpn.connect()
@@ -99,7 +96,4 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
 
 
 if __name__ == '__main__':
-    import os
-
-    print(os.getcwd())
-    parse_topics('../assets/Course_Descriptions.txt', '../assets/Course_Topics.txt')
+    parse('../assets/Descriptions.json', '../assets/Topics.ttl')
