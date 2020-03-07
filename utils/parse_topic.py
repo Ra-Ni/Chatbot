@@ -1,6 +1,5 @@
 from http.client import RemoteDisconnected
 from json import loads
-from re import sub
 from urllib import parse
 from typing import Union
 
@@ -17,13 +16,12 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
     uri = 'api.dbpedia-spotlight.org'
     path = '/en/annotate'
     headers = {'Host': uri,
-               'User-Agent': 'Extractor',
+               'User-Agent': 'Conupedia Extractor',
                'Accept': 'application/json',
                'Accept-Language': 'en-US, en; q=0.5',
                'Accept-Encoding': 'gzip, deflate, br',
                'Origin': 'https://www.dbpedia-spotlight.org',
                'DNT': '1',
-               'Connection': 'closed',
                'Pragma': 'no-cache',
                'Cache-Control': 'no-cache',
                'Content-Length': None}
@@ -37,6 +35,7 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
             'sparql': ''}
     request = HTTPConnection(uri, 80)
     nordvpn = NordVPNClient()
+
     with open(output, 'w') as writer:
         writer.write(owl_prefix)
         with open(target, 'r') as reader:
@@ -50,11 +49,6 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
 
                 course = line[:-1]
                 description = reader.readline()
-
-                # this needs to be dealt with in descriptions
-                if 'Please see ' in description:
-                    line = reader.readline()
-                    continue
 
                 description = description[description.find("\"") + 1:-3]
                 description = description.replace(' ', '+')
@@ -98,12 +92,14 @@ def parse_topics(target: Union[str, bytes, int], output: Union[str, bytes, int])
                 if buffer:
                     buffer = ';\n'.join([f'\t{owl_acronym}:sameAs <{uri}>' for uri in buffer])
                     writer.write(f'\n\n{course}\n{buffer}.')
-
+                    writer.flush()
                 line = reader.readline()
+
+    nordvpn.reset()
 
 
 if __name__ == '__main__':
     import os
 
     print(os.getcwd())
-    parse_topics('../assets/CourseDescriptions.txt', '../assets/me.txt')
+    parse_topics('../assets/Course_Descriptions.txt', '../assets/Course_Topics.txt')

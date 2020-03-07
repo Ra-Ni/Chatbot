@@ -1,10 +1,34 @@
+"""
+The purpose of NordVPNClient is to bypass API call limitations set by dbpedia spotlight.
+It serves as a wrapper class for NordVPN commands installed as a command-line application.
+
+----------
+Variables
+----------
+
+COUNTRIES:
+    A list of strings representing the name of the country.
+    The list contains filtered countries that were selected from the set of countries offered by NordVPN.
+
+--------
+Methods
+--------
+
+connect() -> None:
+    Connects to a NordVPN session with the next country in the list.
+    The public IP Address of the device will be that which is provided by the application.
+
+reset() -> None:
+    Disconnects from the NordVPN session.
+    Reverts to the default public IP address of the device.
+"""
+
 import os
 from random import randint
 
 
 class NordVPNClient:
     COUNTRIES = [
-        'Albania',
         'Germany',
         'Norway',
         'Argentina',
@@ -52,7 +76,6 @@ class NordVPNClient:
         'Finland',
         'Netherlands',
         'United_Kingdom',
-        'France',
         'New_Zealand',
         'United_States',
         'Georgia',

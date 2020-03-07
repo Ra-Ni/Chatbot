@@ -30,10 +30,10 @@ def parse_descriptions(target: typing.Union[str, bytes, int], output: typing.Uni
                 # The notes in the description are useless, and so are the prerequisities
                 description = re.sub("(IMPORTANT )?NOTE(S)?(:|-).*|Note(s)?(:|-).*", "", description)
                 description = re.sub("Prerequisite.*?[\.!\?](?:\s|$)", "", description) 
-
+                description = re.sub("(?i).*(Students who have taken).*", "", description)
                 if description != "":
                     description = re.sub("\t|\r\n|\n", "", description)
                     writer.write(f'\n\n{course_acronym}:{course["ID"]}\n\t{rdfs_acronym}:comment \"{description}\".')
 
 if __name__ == '__main__':
-    parse_descriptions('../assets/description.json', '../assets/CourseDescriptions.txt')
+    parse_descriptions('../assets/description.json', '../assets/Course_Descriptions.txt')
