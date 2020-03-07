@@ -8,10 +8,9 @@ from re import sub
 
 from environment import course, description, topic
 from utils import rdf_converter
-from utils.progress_bar import ProgressBar
 
-"""
- target = '../assets/Courses'
+if __name__ == '__main__':
+    target = '../assets/Courses'
     course.fetch(f'{target}_Raw.json')
     course.parse(f'{target}_Raw.json', f'{target}.ttl')
 
@@ -22,10 +21,6 @@ from utils.progress_bar import ProgressBar
     output = '../assets/Topics.ttl'
     rdf_converter.fetch(f'{target}.ttl', f'{target}.json')
     topic.parse(f'{target}.json', output)
-
-    
-"""
-if __name__ == '__main__':
 
     prefixes = set()
     courses = {}
@@ -48,7 +43,8 @@ if __name__ == '__main__':
                     if course_id not in courses:
                         courses[course_id] = []
                 if '\t' in line:
-                    new_line = sub('[;.]\n', '', line)
+                    new_line = sub('[;\.]\n+', '', line)
+
                     courses[course_id].append(new_line)
                 line = reader.readline()
 
@@ -58,6 +54,6 @@ if __name__ == '__main__':
         for key, value in courses.items():
 
 
-            body = ' ;\n'.join(value)
-
-            writer.write(f'\n\n{key}{body} .')
+            body = ';\n'.join(value)
+            body = sub('(\.;)', '', body)
+            writer.write(f'\n\n{key}{body}.')

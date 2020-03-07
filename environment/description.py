@@ -42,7 +42,7 @@ def parse(target: typing.Union[str, bytes, int], output: typing.Union[str, bytes
             if description != "":
                 description = re.sub("(\t|\r\n|\n)", "", description)
                 description = re.sub('\\\\', "", description)
-                writer.write(f'\n\n<{cpc_ns}:{course["ID"]}>\n\t{schema_ns}:description \"{description}\".')
+                writer.write(f'\n\n<{cpc_ns}:{course["ID"]}>\n\t{schema_ns}:description \"{description}\" .')
 
 
 if __name__ == '__main__':
