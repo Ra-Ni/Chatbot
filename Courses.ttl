@@ -1,4 +1,3 @@
-@prefix courseNum: <https://conupedia.sytes.net/CourseNum/>.
 @prefix Cr: <https://conupedia.sytes.net/Course/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix Career: <https://conupedia.sytes.net/Career/>.

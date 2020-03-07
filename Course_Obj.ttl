@@ -1,0 +1,28 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+PREFIX Cr: <https://conupedia.sytes.net/Course/>.
+
+<https://conupedia.sytes.net/Course/>
+    a rdfs:Class;
+    rdfs:subClassOf <https://schema.org/Course>.
+
+Cr:courseCode
+    a rdf:Property;
+    rdfs:domain Cr:.
+
+Cr:numberOfCredits
+    a rdf:Property;
+    rdfs:domain Cr:.
+
+Cr:name
+    a rdf:Property;
+    rdfs:domain Cr:.
+
+Cr:career
+    a rdf:Property;
+    rdfs:domain Cr:;
+    rdfs:range <https://conupedia.sytes.net/Career/>.
+
+Cr:coursePrerequisites
+    a rdf:Property;
+    rdfs:domain Cr:.
