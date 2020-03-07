@@ -13,8 +13,8 @@ def fetch(output: typing.Union[str, bytes, int]) -> None:
 
 
 def parse(target: typing.Union[str, bytes, int], output: typing.Union[str, bytes, int]) -> None:
-    course_prefix, course_acronym = prefixes.COURSE
-    schema_prefix, schema_acronym = prefixes.SCHEMA
+    cpc_p, cpc_ns = prefixes.CPC
+    schema_p, schema_ns = prefixes.SCHEMA
 
     with open(target, 'rb') as reader:
         raw_data = json.load(reader)
@@ -22,7 +22,7 @@ def parse(target: typing.Union[str, bytes, int], output: typing.Union[str, bytes
 
     # establish and write prefix URIs
     with open(output, 'w') as writer:
-        writer.write(f'{course_prefix}\n{schema_prefix}')
+        writer.write(f'{cpc_p}\n{schema_p}')
 
         # Creating tuples
         for course in raw_data:
@@ -42,7 +42,7 @@ def parse(target: typing.Union[str, bytes, int], output: typing.Union[str, bytes
             if description != "":
                 description = re.sub("(\t|\r\n|\n)", "", description)
                 description = re.sub('\\\\', "", description)
-                writer.write(f'\n\n<{course_acronym}:{course["ID"]}>\n\t{schema_acronym}:description \"{description}\".')
+                writer.write(f'\n\n<{cpc_ns}:{course["ID"]}>\n\t{schema_ns}:description \"{description}\".')
 
 
 if __name__ == '__main__':

@@ -1,3 +1,20 @@
+"""
+rdf_converter module connects to rdfvalidator.mybluemix.net, and uses the server to convert files to different formats.
+Supported formats are json, xml, and ttl.
+
+-------
+Methods
+-------
+
+fetch(target, output) -> None:
+    Opens the target file and reads the contents of it.
+    Creates a session with the server and sends the post request containing the contents.
+    Receives the response from the server and stores it in the file path defined by output.
+
+    Note: both target and output must be of extension .ttl, .xml, or .json.
+
+"""
+
 from http.client import HTTPConnection
 from typing import Union
 from urllib.parse import quote

@@ -1,4 +1,4 @@
-from json import load, loads, dump
+from json import load, dump
 from re import sub
 from string import capwords
 from typing import Union
@@ -14,13 +14,11 @@ def fetch(output: Union[str, bytes, int]) -> None:
 
 
 def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> None:
-    course_prefix, course_acronym = prefixes.COURSE
-    rdfs_prefix, rdfs_acronym = prefixes.RDFS
-    career_prefix, career_acronym = prefixes.CAREER
-    course_number_prefix, course_number_acronym = prefixes.COURSE_NUMBER
-    schema_prefix, schema_acronym = prefixes.SCHEMA
-    dbpedia_resource_prefix, dbpedia_resource_acronym = prefixes.DBPEDIA_RESOURCE
-    xsd_prefix, xsd_acronym = prefixes.XMLSCHEMA
+    cpc_p, cpc_ns = prefixes.CPC
+    rdfs_p, rdfs_ns = prefixes.RDFS
+    schema_p, schema_ns = prefixes.SCHEMA
+    dbr_p, dbr_ns = prefixes.DBPEDIA_RESOURCE
+    xsd_p, xsd_ns = prefixes.XMLSCHEMA
 
     careers = {
         'UGRD': '<https://www.concordia.ca/academics/undergraduate.html>',
@@ -33,7 +31,7 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
 
     with open(output, 'w') as writer:
 
-        writer.write(f'{course_prefix}\n{rdfs_prefix}\n{career_prefix}\n{course_number_prefix}\n{schema_prefix}\n{dbpedia_resource_prefix}\n{xsd_prefix}')
+        writer.write(f'{cpc_p}\n{rdfs_p}\n{schema_p}\n{dbr_p}\n{xsd_p}')
 
         with open(target, 'r') as reader:
             json_form = load(reader)
@@ -45,25 +43,25 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
                     continue
 
                 courses_seen.add(item['ID'])
-                subject = f'<{course_acronym}:{item["ID"]}>'
+                subject = f'<{cpc_ns}:{item["ID"]}>'
                 turtle_form = list()
-                turtle_form.append(f'\n\t{rdfs_acronym}:type {schema_acronym}:Course')
-                turtle_form.append(f'\n\t{schema_acronym}:courseCode \"{item["subject"]}{item["catalog"]}\"')
-                turtle_form.append(f'\n\t{schema_acronym}:numberOfCredits \"{item["classUnit"]}\"^^{xsd_acronym}:float')
+                turtle_form.append(f'\n\t{rdfs_ns}:type {schema_ns}:Course')
+                turtle_form.append(f'\n\t{schema_ns}:courseCode \"{item["subject"]}{item["catalog"]}\"')
+                turtle_form.append(f'\n\t{schema_ns}:numberOfCredits \"{item["classUnit"]}\"^^{xsd_ns}:float')
 
                 title = sub('["\']', '\'', item['title'])
                 title = title.lower()
                 title = capwords(title)
 
-                turtle_form.append(f'\n\t{schema_acronym}:name \"{title}\"')
-                turtle_form.append(f'\n\t{schema_acronym}:isPartOf {careers[item["career"]]}')
+                turtle_form.append(f'\n\t{schema_ns}:name \"{title}\"')
+                turtle_form.append(f'\n\t{schema_ns}:isPartOf {careers[item["career"]]}')
 
                 if item['prerequisites']:
                     prerequisites = sub('( ){2,}', ' ', item['prerequisites'])
                     prerequisites = sub('[\r\n]+', '', prerequisites)
-                    turtle_form.append(f'\n\t{course_acronym}:coursePrerequisites \"{prerequisites}\"')
+                    turtle_form.append(f'\n\t{schema_ns}:coursePrerequisites \"{prerequisites}\"')
 
-                turtle_form.append(f'\n\t{schema_acronym}:provider {dbpedia_resource_acronym}:Concordia_University')
+                turtle_form.append(f'\n\t{schema_ns}:provider {dbr_ns}:Concordia_University')
 
                 properties = ' ;'.join(turtle_form)
 

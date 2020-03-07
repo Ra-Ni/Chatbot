@@ -1,3 +1,35 @@
+"""
+Simple class for displaying the progress of a running process.
+
+---------
+Variables
+---------
+
+threshold:
+    The maximum set value, denoting the denominator.
+
+current:
+    The current set value, denoting the numerator.
+
+increment:
+    The size of the step on current every time the progress bar is updated.
+    Default is 1.0.
+
+progress:
+    Returns the current progress as a percentage.
+
+-------
+Methods
+-------
+
+console_update():
+    Calculates the current progress as a percentage and prints it to the console.
+
+reset():
+    Resets the progress bar back to 0%.
+
+"""
+
 from sys import stdout
 
 class ProgressBar:
