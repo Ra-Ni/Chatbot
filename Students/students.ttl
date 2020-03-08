@@ -1,0 +1,380 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cps: <http://www.conupedia.sytes.net/Student/> .
+@prefix cpc: <http://www.conupedia.sytes.net/Course/> .
+@prefix schema: <http://schema.org/version/6.0/#> .
+
+
+
+
+
+#Defining Schemas
+cr:tookCourse a rdf:Property ;
+				rdfs:range schema:Course  ;
+				rdfs:domain cps:Student .
+
+
+cr:grade a rdf:Property ;
+		rdfs:range cps:Student ;
+		rdfs:domain schema:Course  .
+
+
+
+#List of Students.
+
+<http://www.conupedia.sytes.net/Student/4008921>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Nick" ;
+				foaf:lastName "Lawson" ;
+				foaf:mbox "Nick_Lawson@gmail.com" ;
+				cr:tookCourse Assessment:1 ;
+				cr:tookCourse Assessment:14 ;
+				cr:tookCourse Assessment:27 ;
+				cr:tookCourse Assessment:40 ;
+				cr:tookCourse Assessment:53 ;
+				cr:tookCourse Assessment:66 .
+
+<http://www.conupedia.sytes.net/Student/4001955>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Gale" ;
+				foaf:lastName "Winston" ;
+				foaf:mbox "Gale_Winston@gmail.com" ;
+				cr:tookCourse Assessment:2 ;
+				cr:tookCourse Assessment:15 ;
+				cr:tookCourse Assessment:28 ;
+				cr:tookCourse Assessment:41 ;
+				cr:tookCourse Assessment:54 .
+
+<http://www.conupedia.sytes.net/Student/4005576>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Amy" ;
+				foaf:lastName "Weinstein" ;
+				foaf:mbox "Amy_Weinstein@hotmail.com" ;
+				cr:tookCourse Assessment:3 ;
+				cr:tookCourse Assessment:16 ;
+				cr:tookCourse Assessment:29 ;
+				cr:tookCourse Assessment:42 ;
+				cr:tookCourse Assessment:55 .
+
+
+<http://www.conupedia.sytes.net/Student/4009876>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "George" ;
+				foaf:lastName "Clooney" ;
+				foaf:mbox "George_Clooney@gmail.com" ;
+				cr:tookCourse Assessment:4 ;
+				cr:tookCourse Assessment:17 ;
+				cr:tookCourse Assessment:30 ;
+				cr:tookCourse Assessment:43 ;
+				cr:tookCourse Assessment:56 .
+
+
+<http://www.conupedia.sytes.net/Student/4013432>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Toby" ;
+				foaf:lastName "Keith" ;
+				foaf:mbox "Toby_Keith@hotmail.com" ;
+				cr:tookCourse Assessment:5 ;
+				cr:tookCourse Assessment:18 ;
+				cr:tookCourse Assessment:31 ;
+				cr:tookCourse Assessment:44 ;
+				cr:tookCourse Assessment:57 .
+
+
+<http://www.conupedia.sytes.net/Student/4011143>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Pete" ;
+				foaf:lastName "Sampres" ;
+				foaf:mbox "Pete0Sampres@gmail.com" ;
+				cr:tookCourse Assessment:6 ;
+				cr:tookCourse Assessment:19 ;
+				cr:tookCourse Assessment:32 ;
+				cr:tookCourse Assessment:45 ;
+				cr:tookCourse Assessment:58 .
+
+
+<http://www.conupedia.sytes.net/Student/4005222>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Tyler" ;
+				foaf:lastName "Perry" ;
+				foaf:mbox "T.Perry@hotmail.com" ;
+				cr:tookCourse Assessment:7 ;
+				cr:tookCourse Assessment:20 ;
+				cr:tookCourse Assessment:33 ;
+				cr:tookCourse Assessment:46 ;
+				cr:tookCourse Assessment:59 .
+
+
+<http://www.conupedia.sytes.net/Student/4009990>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Earl" ;
+				foaf:lastName "Jones" ;
+				foaf:mbox "JonesE@hotmail.com" ;
+				cr:tookCourse Assessment:8 ;
+				cr:tookCourse Assessment:21 ;
+				cr:tookCourse Assessment:34 ;
+				cr:tookCourse Assessment:47 ;
+				cr:tookCourse Assessment:60 .
+
+
+<http://www.conupedia.sytes.net/Student/4009865>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Lisa" ;
+				foaf:lastName "Boomer" ;
+				foaf:mbox "Boomsa@hotmail.com" ;
+				cr:tookCourse Assessment:9 ;
+				cr:tookCourse Assessment:22 ;
+				cr:tookCourse Assessment:35 ;
+				cr:tookCourse Assessment:48 ;
+				cr:tookCourse Assessment:61 .
+
+
+<http://www.conupedia.sytes.net/Student/4005563>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Mike" ;
+				foaf:lastName "Larry" ;
+				foaf:mbox "MLaaaary@aol.com" ;
+				cr:tookCourse Assessment:10 ;
+				cr:tookCourse Assessment:23 ;
+				cr:tookCourse Assessment:36 ;
+				cr:tookCourse Assessment:49 ;
+				cr:tookCourse Assessment:62 .
+
+
+<http://www.conupedia.sytes.net/Student/4001335>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Andrea" ;
+				foaf:lastName "Viola" ;
+				foaf:mbox "Viandrea@hotmail.com" ;
+				cr:tookCourse Assessment:11 ;
+				cr:tookCourse Assessment:24 ;
+				cr:tookCourse Assessment:37 ;
+				cr:tookCourse Assessment:50 ;
+				cr:tookCourse Assessment:63 .
+
+
+<http://www.conupedia.sytes.net/Student/4001234>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "John" ;
+				foaf:lastName "Doe" ;
+				foaf:mbox "DoeDoeJ@gmail.com" ;
+				cr:tookCourse Assessment:12;
+				cr:tookCourse Assessment:25 ;
+				cr:tookCourse Assessment:38 ;
+				cr:tookCourse Assessment:51 ;
+				cr:tookCourse Assessment:64 .
+
+<http://www.conupedia.sytes.net/Student/4009932>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
+				foaf:firstName "Jane" ;
+				foaf:lastName "Doe" ;
+				foaf:mbox "WhoIsJane@hotmail.com" ;
+				cr:tookCourse Assessment:13 ;
+				cr:tookCourse Assessment:26 ;
+				cr:tookCourse Assessment:39 ;
+				cr:tookCourse Assessment:52 ;
+				cr:tookCourse Assessment:65 .
+
+
+#Course Assessments
+<Assessment:1>  rdfs:label cpc:005363 ; 
+				cr:grade"A".
+
+<Assessment:2>  rdfs:label cpc:005363 ; 
+				cr:grade "A-".
+
+<Assessment:3>  rdfs:label cpc:005363 ; 
+				cr:grade "B+".
+
+<Assessment:4>  rdfs:label cpc:005363 ; 
+				cr:grade "F".
+
+<Assessment:5>  rdfs:label cpc:005363 ; 
+				cr:grade "C".
+
+<Assessment:6>  rdfs:label cpc:005363 ; 
+				cr:grade "B".
+
+<Assessment:7>  rdfs:label cpc:005364 ; 
+				cr:grade "A-".
+
+<Assessment:8>  rdfs:label cpc:005364 ; 
+				cr:grade "C".
+
+<Assessment:9>  rdfs:label cpc:005364 ; 
+				cr:grade "A".
+
+<Assessment:10>  rdfs:label cpc:005364 ;
+				cr:grade "C+".
+
+<Assessment:11>  rdfs:label cpc:026485 ;
+				cr:grade "B-".
+
+<Assessment:12>  rdfs:label cpc:029765 ;
+				cr:grade "A-".
+
+<Assessment:13>  rdfs:label cpc:032005 ;
+				cr:grade "D".
+
+<Assessment:14>  rdfs:label cpc:032005 ;
+				cr:grade "D+".
+
+<Assessment:15>  rdfs:label cpc:032005 ;
+				cr:grade "B".
+
+<Assessment:16>  rdfs:label cpc:032005 ;
+				cr:grade "C".
+
+<Assessment:17>  rdfs:label cpc:032004 ;
+				cr:grade "A".
+
+<Assessment:18>  rdfs:label cpc:032004 ;
+				cr:grade "A-".
+
+<Assessment:19>  rdfs:label cpc:032004 ;
+				cr:grade "B+".
+
+<Assessment:20>  rdfs:label cpc:032004 ;
+				 cr:grade "F".
+
+<Assessment:21>  rdfs:label cpc:005484 ;
+				 cr:grade "A".
+
+<Assessment:22>  rdfs:label cpc:005484 ;
+				 cr:grade "B".
+
+<Assessment:23>  rdfs:label cpc:005484 ;
+				 cr:grade "C".
+
+<Assessment:24>  rdfs:label cpc:005484 ;
+				 cr:grade "D".
+
+<Assessment:25>  rdfs:label cpc:005484 ;
+				 cr:grade "B+".
+
+<Assessment:26>  rdfs:label cpc:005484 ;
+				 cr:grade "C-".
+
+<Assessment:27>  rdfs:label cpc:005484 ;
+				 cr:grade "A".
+
+<Assessment:28>  rdfs:label cpc:005410 ;
+				 cr:grade "A".
+
+<Assessment:29>  rdfs:label cpc:005410 ;
+				 cr:grade "A+".
+
+<Assessment:30>  rdfs:label cpc:005410 ;
+				 cr:grade "B+".
+
+<Assessment:31>  rdfs:label cpc:005410 ;
+				 cr:grade "B+".
+
+<Assessment:32>  rdfs:label cpc:005410 ;
+				 cr:grade "C".
+
+<Assessment:33>  rdfs:label cpc:005410 ;
+				 cr:grade "C".
+
+<Assessment:34>  rdfs:label cpc:046579 ;
+				 cr:grade "C".
+
+<Assessment:35>  rdfs:label cpc:046579 ;
+				 cr:grade "C".
+
+<Assessment:36>  rdfs:label cpc:046579 ;
+				 cr:grade "C+".
+
+<Assessment:37>  rdfs:label cpc:046579 ;
+				 cr:grade "B".
+
+<Assessment:38>  rdfs:label cpc:046579 ;
+				 cr:grade "B".
+
+<Assessment:39>  rdfs:label cpc:005482 ;
+				 cr:grade "A-".
+
+<Assessment:40>  rdfs:label cpc:005482 ;
+				 cr:grade "A+".
+
+<Assessment:41>  rdfs:label cpc:005482 ;
+				 cr:grade "D".
+
+<Assessment:42>  rdfs:label cpc:005482 ;
+				 cr:grade "F".
+
+<Assessment:43>  rdfs:label cpc:005482 ;
+				 cr:grade "C-".
+
+<Assessment:44>  rdfs:label cpc:008432 ;
+				 cr:grade "C".
+
+<Assessment:45>  rdfs:label cpc:008432 ;
+				 cr:grade "A".
+
+<Assessment:46>  rdfs:label cpc:008432 ;
+				 cr:grade "A".
+
+<Assessment:47>  rdfs:label cpc:008432 ;
+				 cr:grade "A".
+
+<Assessment:48>  rdfs:label cpc:008432 ;
+				 cr:grade "B".
+
+<Assessment:49>  rdfs:label cpc:008432 ;
+				 cr:grade "B+".
+
+<Assessment:50>  rdfs:label cpc:008432 ;
+				 cr:grade "C".
+
+<Assessment:51>  rdfs:label cpc:032005 ;
+				 cr:grade "B-".
+
+<Assessment:52>  rdfs:label cpc:032005 ;
+				 cr:grade "A".
+
+<Assessment:53>  rdfs:label cpc:032005 ;
+				 cr:grade "A".
+
+<Assessment:54>  rdfs:label cpc:032005 ;
+				 cr:grade "F".
+
+<Assessment:55>  rdfs:label cpc:032005 ;
+				 cr:grade "F".
+
+<Assessment:56>  rdfs:label cpc:032005 ;
+				 cr:grade "C".
+
+<Assessment:57>  rdfs:label cpc:032005 ;
+				 cr:grade "C".
+
+<Assessment:58>  rdfs:label cpc:032005 ;
+				 cr:grade "D".
+
+<Assessment:59>  rdfs:label cpc:032005 ;
+				 cr:grade "B+".
+
+<Assessment:60>  rdfs:label cpc:032123 ;
+				 cr:grade "C-".
+
+<Assessment:61>  rdfs:label cpc:032123 ;
+				 cr:grade "C+".
+
+<Assessment:62>  rdfs:label cpc:002057 ;
+				 cr:grade "B".
+
+<Assessment:63>  rdfs:label cpc:002057 ;
+				 cr:grade "A".
+
+<Assessment:64>  rdfs:label cpc:001775 ;
+				 cr:grade "F".
+
+<Assessment:65>  rdfs:label cpc:001775 ;
+				 cr:grade "D+".
+
+<Assessment:66>  rdfs:label cpc:031525 ;
+				 cr:grade "C".
+
+
+
+
