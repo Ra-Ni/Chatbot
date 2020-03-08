@@ -11,8 +11,8 @@ from utils.progress_bar import ProgressBar
 
 
 def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> None:
-    owl_p, owl_ns = prefixes.OWL
-    cpc_p, cpc_ns = prefixes.CPC
+    owl_p, owl_ns, _ = prefixes.OWL
+    cpc_p, cpc_ns, _ = prefixes.CPC
 
     uri = 'api.dbpedia-spotlight.org'
     path = '/en/annotate'
@@ -42,7 +42,7 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
 
     content_list = json_form['@graph']
     progress_bar = ProgressBar(len(content_list))
-    skip = True
+
     with open(output, 'w') as writer:
         writer.write(f'{owl_p}\n{cpc_p}')
         for item in content_list:
