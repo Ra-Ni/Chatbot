@@ -1,0 +1,444 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cpo: <http://wwww.conupedia.sytes.net/Ontology/> .
+@prefix schema: <http://schema.org/version/6.0/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.conupedia.sytes.net/Ontology/took>
+	rdf:type rdf:Property ;
+	rdfs:domain foaf:Person ;
+	rdfs:range schema:Course .
+
+<http://www.conupedia.sytes.net/Ontology/grade>
+	rdf:type rdf:Property ;
+	rdfs:range foaf:Person .
+
+<http://www.conupedia.sytes.net/Student/4008921>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Nick" ;
+	foaf:lastName "Lawson" ;
+	foaf:mbox "Nick_Lawson@gmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/1> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/14> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/27> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/40> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/53> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/66> .
+
+<http://www.conupedia.sytes.net/Student/4001955>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Gale" ;
+	foaf:lastName "Winston" ;
+	foaf:mbox "Gale_Winston@gmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/2> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/15> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/28> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/41> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/54> .
+
+<http://www.conupedia.sytes.net/Student/4005576>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Amy" ;
+	foaf:lastName "Weinstein" ;
+	foaf:mbox "Amy_Weinstein@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/3> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/16> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/29> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/42> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/55> .
+
+
+<http://www.conupedia.sytes.net/Student/4009876>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "George" ;
+	foaf:lastName "Clooney" ;
+	foaf:mbox "George_Clooney@gmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/4> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/17> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/30> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/43> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/56> .
+
+
+<http://www.conupedia.sytes.net/Student/4013432>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Toby" ;
+	foaf:lastName "Keith" ;
+	foaf:mbox "Toby_Keith@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/5> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/18> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/31> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/44> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/57> .
+
+
+<http://www.conupedia.sytes.net/Student/4011143>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Pete" ;
+	foaf:lastName "Sampres" ;
+	foaf:mbox "Pete0Sampres@gmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/6> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/19> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/32> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/45> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/58> .
+
+
+<http://www.conupedia.sytes.net/Student/4005222>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Tyler" ;
+	foaf:lastName "Perry" ;
+	foaf:mbox "T.Perry@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/7> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/20> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/33> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/46> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/59> .
+
+
+<http://www.conupedia.sytes.net/Student/4009990>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Earl" ;
+	foaf:lastName "Jones" ;
+	foaf:mbox "JonesE@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/8> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/21> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/34> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/47> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/60> .
+
+
+<http://www.conupedia.sytes.net/Student/4009865>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Lisa" ;
+	foaf:lastName "Boomer" ;
+	foaf:mbox "Boomsa@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/9> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/22> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/35> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/48> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/61> .
+
+
+<http://www.conupedia.sytes.net/Student/4005563>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Mike" ;
+	foaf:lastName "Larry" ;
+	foaf:mbox "MLaaaary@aol.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/10> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/23> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/36> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/49> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/62> .
+
+
+<http://www.conupedia.sytes.net/Student/4001335>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Andrea" ;
+	foaf:lastName "Viola" ;
+	foaf:mbox "Viandrea@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/11> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/24> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/37> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/50> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/63> .
+
+
+<http://www.conupedia.sytes.net/Student/4001234>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "John" ;
+	foaf:lastName "Doe" ;
+	foaf:mbox "DoeDoeJ@gmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/12> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/25> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/38> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/51> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/64> .
+
+<http://www.conupedia.sytes.net/Student/4009932>
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf foaf:Person ;
+	foaf:firstName "Jane" ;
+	foaf:lastName "Doe" ;
+	foaf:mbox "WhoIsJane@hotmail.com" ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/13> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/26> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/39> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/52> ;
+	cpo:took <http://www.conupedia.sytes.net/Assessment/65> .
+
+<http://www.conupedia.sytes.net/Assessment/1>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005363> ;
+	cpo:grade"A".
+
+<http://www.conupedia.sytes.net/Assessment/2>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005363> ;
+	cpo:grade "A-".
+
+<http://www.conupedia.sytes.net/Assessment/3>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005363> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/4>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005363> ;
+	cpo:grade "F".
+
+<http://www.conupedia.sytes.net/Assessment/5>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005363> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/6>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005363> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/7>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005364> ;
+	cpo:grade "A-".
+
+<http://www.conupedia.sytes.net/Assessment/8>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005364> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/9>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005364> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/10>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005364> ;
+	cpo:grade "C+".
+
+<http://www.conupedia.sytes.net/Assessment/11>
+	rdfs:label <http://www.conupedia.sytes.net/Course/026485> ;
+	cpo:grade "B-".
+
+<http://www.conupedia.sytes.net/Assessment/12>
+	rdfs:label <http://www.conupedia.sytes.net/Course/029765> ;
+	cpo:grade "A-".
+
+<http://www.conupedia.sytes.net/Assessment/13>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "D".
+
+<http://www.conupedia.sytes.net/Assessment/14>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "D+".
+
+<http://www.conupedia.sytes.net/Assessment/15>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/16>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/17>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032004> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/18>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032004> ;
+	cpo:grade "A-".
+
+<http://www.conupedia.sytes.net/Assessment/19>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032004> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/20>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032004> ;
+	cpo:grade "F".
+
+<http://www.conupedia.sytes.net/Assessment/21>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/22>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/23>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/24>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "D".
+
+<http://www.conupedia.sytes.net/Assessment/25>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/26>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "C-".
+
+<http://www.conupedia.sytes.net/Assessment/27>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005484> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/28>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005410> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/29>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005410> ;
+	cpo:grade "A+".
+
+<http://www.conupedia.sytes.net/Assessment/30>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005410> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/31>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005410> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/32>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005410> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/33>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005410> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/34>
+	rdfs:label <http://www.conupedia.sytes.net/Course/046579> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/35>
+	rdfs:label <http://www.conupedia.sytes.net/Course/046579> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/36>
+	rdfs:label <http://www.conupedia.sytes.net/Course/046579> ;
+	cpo:grade "C+".
+
+<http://www.conupedia.sytes.net/Assessment/37>
+	rdfs:label <http://www.conupedia.sytes.net/Course/046579> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/38>
+	rdfs:label <http://www.conupedia.sytes.net/Course/046579> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/39>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005482> ;
+	cpo:grade "A-".
+
+<http://www.conupedia.sytes.net/Assessment/40>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005482> ;
+	cpo:grade "A+".
+
+<http://www.conupedia.sytes.net/Assessment/41>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005482> ;
+	cpo:grade "D".
+
+<http://www.conupedia.sytes.net/Assessment/42>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005482> ;
+	cpo:grade "F".
+
+<http://www.conupedia.sytes.net/Assessment/43>
+	rdfs:label <http://www.conupedia.sytes.net/Course/005482> ;
+	cpo:grade "C-".
+
+<http://www.conupedia.sytes.net/Assessment/44>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/45>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/46>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/47>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/48>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/49>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/50>
+	rdfs:label <http://www.conupedia.sytes.net/Course/008432> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/51>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "B-".
+
+<http://www.conupedia.sytes.net/Assessment/52>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/53>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/54>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "F".
+
+<http://www.conupedia.sytes.net/Assessment/55>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "F".
+
+<http://www.conupedia.sytes.net/Assessment/56>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/57>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "C".
+
+<http://www.conupedia.sytes.net/Assessment/58>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "D".
+
+<http://www.conupedia.sytes.net/Assessment/59>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	cpo:grade "B+".
+
+<http://www.conupedia.sytes.net/Assessment/60>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032123> ;
+	cpo:grade "C-".
+
+<http://www.conupedia.sytes.net/Assessment/61>
+	rdfs:label <http://www.conupedia.sytes.net/Course/032123> ;
+	cpo:grade "C+".
+
+<http://www.conupedia.sytes.net/Assessment/62>
+	rdfs:label <http://www.conupedia.sytes.net/Course/002057> ;
+	cpo:grade "B".
+
+<http://www.conupedia.sytes.net/Assessment/63>
+	rdfs:label <http://www.conupedia.sytes.net/Course/002057> ;
+	cpo:grade "A".
+
+<http://www.conupedia.sytes.net/Assessment/64>
+	rdfs:label <http://www.conupedia.sytes.net/Course/001775> ;
+	cpo:grade "F".
+
+<http://www.conupedia.sytes.net/Assessment/65>
+	rdfs:label <http://www.conupedia.sytes.net/Course/001775> ;
+	cpo:grade "D+".
+
+<http://www.conupedia.sytes.net/Assessment/66>
+	rdfs:label <http://www.conupedia.sytes.net/Course/031525> ;
+	cpo:grade "C".
