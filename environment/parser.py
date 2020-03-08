@@ -7,6 +7,7 @@ It calls on to parse courses, descriptions, and topics in a sequential manner.
 from re import sub
 
 import prefixes
+import rdf_converter
 from environment import course, description, topic
 
 if __name__ == '__main__':
@@ -18,9 +19,9 @@ if __name__ == '__main__':
     description.fetch(f'{target}_Raw.json')
     description.parse(f'{target}_Raw.json', f'{target}.ttl')
 
-    # output = '../assets/Topics.ttl'
-    # rdf_converter.fetch(f'{target}.ttl', f'{target}.json')
-    # topic.parse(f'{target}.json', output)
+    output = '../assets/Topics.ttl'
+    rdf_converter.fetch(f'{target}.ttl', f'{target}.json')
+    topic.parse(f'{target}.json', output)
 
     prefix_set = set()
     courses = {}
