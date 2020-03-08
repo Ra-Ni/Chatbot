@@ -380,39 +380,39 @@
 	cpo:grade "C".
 
 <http://www.conupedia.sytes.net/Assessment/51>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "B-".
 
 <http://www.conupedia.sytes.net/Assessment/52>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "A".
 
 <http://www.conupedia.sytes.net/Assessment/53>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "A".
 
 <http://www.conupedia.sytes.net/Assessment/54>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "F".
 
 <http://www.conupedia.sytes.net/Assessment/55>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "F".
 
 <http://www.conupedia.sytes.net/Assessment/56>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "C".
 
 <http://www.conupedia.sytes.net/Assessment/57>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "C".
 
 <http://www.conupedia.sytes.net/Assessment/58>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "D".
 
 <http://www.conupedia.sytes.net/Assessment/59>
-	rdfs:label <http://www.conupedia.sytes.net/Course/032005> ;
+	rdfs:label <http://www.conupedia.sytes.net/Course/032006> ;
 	cpo:grade "B+".
 
 <http://www.conupedia.sytes.net/Assessment/60>
