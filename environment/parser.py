@@ -4,10 +4,10 @@ Entry point of the application.
 It calls on to parse courses, descriptions, and topics in a sequential manner.
 
 """
-from re import sub
 
 import prefixes
 import rdf_converter
+from re import sub
 from environment import course, description, topic
 
 if __name__ == '__main__':
