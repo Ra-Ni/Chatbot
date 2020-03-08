@@ -4,8 +4,8 @@ Entry point of the application.
 It calls on to parse courses, descriptions, and topics in a sequential manner.
 
 """
-from re import sub
 
+from re import sub
 from environment import course, description, topic
 from utils import rdf_converter
 
