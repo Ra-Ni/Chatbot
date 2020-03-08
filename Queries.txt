@@ -1,0 +1,39 @@
+Queries
+#find all apropriate prefix's
+@prefix st: 
+@prefix cr:
+#1) number of triples in KB
+	
+SELECT (COUNT(*) AS ?triples)
+WHERE 
+	{
+	?a ?b ?c .
+	}
+
+
+#2)
+#number of students
+SELECT (COUNT(?a) AS ?students)
+WHERE
+	{
+	?a a st:Student .
+	}
+
+#number of courses
+SELECT (COUNT(?c) AS ?courses)
+WHERE
+	{
+	?c a st:Student .
+	}
+
+#number of topics
+
+#3)
+
+
+#4)
+SELECT ?courses ?grade
+WHERE
+	{
+	st: cr:
+	}
