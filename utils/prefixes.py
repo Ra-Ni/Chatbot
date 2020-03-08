@@ -1,6 +1,7 @@
 CPC = '@prefix cpc: <http://www.conupedia.sytes.net/Course/> .', 'cpc', 'http://www.conupedia.sytes.net/Course/'
 OWL = '@prefix owl: <http://www.w3.org/2002/07/owl#> .', 'owl', 'http://www.w3.org/2002/07/owl#'
 RDFS = '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .', 'rdfs', 'http://www.w3.org/2000/01/rdf-schema#'
+RDF = '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>', 'rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
 SCHEMA = '@prefix schema: <http://schema.org/version/6.0/#> .', 'schema', 'http://schema.org/version/6.0/#'
 DBPEDIA_RESOURCE = '@prefix dbr: <http://dbpedia.org/resource/> .', 'dbr', 'http://dbpedia.org/resource/'
 XMLSCHEMA = '@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .', 'xsd', 'http://www.w3.org/2001/XMLSchema#'
