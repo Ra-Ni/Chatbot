@@ -1,34 +1,29 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix dbp: <http://dbpedia.org/ontology/> .
-@prefix st: 
+@prefix cps: <http://www.conupedia.sytes.net/Student/> .
 @prefix cpc: <http://www.conupedia.sytes.net/Course/> .
-@prefix schema: <http://schema.org/> .
+@prefix schema: <http://schema.org/version/6.0/#> .
 
 
 
 
 
 #Defining Schemas
-st:Student a rdfs:Class .
-st:Student rdfs:SubClassOf foaf:Person .
-
-cr:course a rdfs:Class .
-
 cr:tookCourse a rdf:Property ;
 				rdfs:range schema:Course  ;
-				rdfs:domain st:Student .
+				rdfs:domain cps:Student .
 
 
 cr:grade a rdf:Property ;
-		rdfs:range st:Student ;
+		rdfs:range cps:Student ;
 		rdfs:domain schema:Course  .
 
 
 
 #List of Students.
 
-<st:4008921>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4008921>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Nick" ;
 				foaf:lastName "Lawson" ;
 				foaf:mbox "Nick_Lawson@gmail.com" ;
@@ -39,7 +34,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:53 ;
 				cr:tookCourse Assessment:66 .
 
-<st:4001955>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4001955>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Gale" ;
 				foaf:lastName "Winston" ;
 				foaf:mbox "Gale_Winston@gmail.com" ;
@@ -49,7 +45,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:41 ;
 				cr:tookCourse Assessment:54 .
 
-<st:4005576>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4005576>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Amy" ;
 				foaf:lastName "Weinstein" ;
 				foaf:mbox "Amy_Weinstein@hotmail.com" ;
@@ -60,7 +57,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:55 .
 
 
-<st:4009876>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4009876>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "George" ;
 				foaf:lastName "Clooney" ;
 				foaf:mbox "George_Clooney@gmail.com" ;
@@ -71,7 +69,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:56 .
 
 
-<st:4013432>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4013432>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Toby" ;
 				foaf:lastName "Keith" ;
 				foaf:mbox "Toby_Keith@hotmail.com" ;
@@ -82,7 +81,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:57 .
 
 
-<st:4011143>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4011143>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Pete" ;
 				foaf:lastName "Sampres" ;
 				foaf:mbox "Pete0Sampres@gmail.com" ;
@@ -93,7 +93,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:58 .
 
 
-<st:4005222>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4005222>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Tyler" ;
 				foaf:lastName "Perry" ;
 				foaf:mbox "T.Perry@hotmail.com" ;
@@ -104,7 +105,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:59 .
 
 
-<st:4009990>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4009990>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Earl" ;
 				foaf:lastName "Jones" ;
 				foaf:mbox "JonesE@hotmail.com" ;
@@ -115,7 +117,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:60 .
 
 
-<st:4009865>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4009865>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Lisa" ;
 				foaf:lastName "Boomer" ;
 				foaf:mbox "Boomsa@hotmail.com" ;
@@ -126,7 +129,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:61 .
 
 
-<st:4005563>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4005563>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Mike" ;
 				foaf:lastName "Larry" ;
 				foaf:mbox "MLaaaary@aol.com" ;
@@ -137,7 +141,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:62 .
 
 
-<st:4001335>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4001335>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Andrea" ;
 				foaf:lastName "Viola" ;
 				foaf:mbox "Viandrea@hotmail.com" ;
@@ -148,7 +153,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:63 .
 
 
-<st:4001234>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4001234>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "John" ;
 				foaf:lastName "Doe" ;
 				foaf:mbox "DoeDoeJ@gmail.com" ;
@@ -158,7 +164,8 @@ cr:grade a rdf:Property ;
 				cr:tookCourse Assessment:51 ;
 				cr:tookCourse Assessment:64 .
 
-<st:4009932>	a st:Student ;
+<http://www.conupedia.sytes.net/Student/4009932>	a rdfs:Class ;
+				rdfs:SubClassOf foaf:Person ;
 				foaf:firstName "Jane" ;
 				foaf:lastName "Doe" ;
 				foaf:mbox "WhoIsJane@hotmail.com" ;
