@@ -13,8 +13,8 @@ def fetch(output: typing.Union[str, bytes, int]) -> None:
 
 
 def parse(target: typing.Union[str, bytes, int], output: typing.Union[str, bytes, int]) -> None:
-    cpc_p, cpc_ns = prefixes.CPC
-    schema_p, schema_ns = prefixes.SCHEMA
+    cpc_p, cpc_ns, cpc_link = prefixes.CPC
+    schema_p, schema_ns, schema_link = prefixes.SCHEMA
 
     with open(target, 'rb') as reader:
         raw_data = json.load(reader)
@@ -42,7 +42,7 @@ def parse(target: typing.Union[str, bytes, int], output: typing.Union[str, bytes
             if description != "":
                 description = re.sub("(\t|\r\n|\n)", "", description)
                 description = re.sub('\\\\', "", description)
-                writer.write(f'\n\n<{cpc_ns}:{course["ID"]}>\n\t{schema_ns}:description \"{description}\" .')
+                writer.write(f'\n\n<{cpc_link}{course["ID"]}>\n\t{schema_ns}:description \"{description}\" .')
 
 
 if __name__ == '__main__':

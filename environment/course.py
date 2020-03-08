@@ -14,11 +14,11 @@ def fetch(output: Union[str, bytes, int]) -> None:
 
 
 def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> None:
-    cpc_p, cpc_ns = prefixes.CPC
-    rdfs_p, rdfs_ns = prefixes.RDFS
-    schema_p, schema_ns = prefixes.SCHEMA
-    dbr_p, dbr_ns = prefixes.DBPEDIA_RESOURCE
-    xsd_p, xsd_ns = prefixes.XMLSCHEMA
+    cpc_p, cpc_ns, cpc_link = prefixes.CPC
+    rdfs_p, rdfs_ns, _ = prefixes.RDFS
+    schema_p, schema_ns, _ = prefixes.SCHEMA
+    dbr_p, dbr_ns, _ = prefixes.DBPEDIA_RESOURCE
+    xsd_p, xsd_ns, _ = prefixes.XMLSCHEMA
 
     careers = {
         'UGRD': '<https://www.concordia.ca/academics/undergraduate.html>',
@@ -43,7 +43,7 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
                     continue
 
                 courses_seen.add(item['ID'])
-                subject = f'<{cpc_ns}:{item["ID"]}>'
+                subject = f'<{cpc_link}{item["ID"]}>'
                 turtle_form = list()
                 turtle_form.append(f'\n\t{rdfs_ns}:type {schema_ns}:Course')
                 turtle_form.append(f'\n\t{schema_ns}:courseCode \"{item["subject"]}{item["catalog"]}\"')

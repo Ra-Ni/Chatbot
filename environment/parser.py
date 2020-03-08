@@ -5,9 +5,10 @@ It calls on to parse courses, descriptions, and topics in a sequential manner.
 
 """
 
+import prefixes
+import rdf_converter
 from re import sub
 from environment import course, description, topic
-from utils import rdf_converter
 
 if __name__ == '__main__':
     target = '../assets/Courses'
@@ -22,11 +23,12 @@ if __name__ == '__main__':
     rdf_converter.fetch(f'{target}.ttl', f'{target}.json')
     topic.parse(f'{target}.json', output)
 
-    prefixes = set()
+    prefix_set = set()
     courses = {}
 
     folder = '../assets'
     files = [f'{folder}/Courses.ttl', f'{folder}/Descriptions.ttl', f'{folder}/Topics.ttl']
+    _, _, cpc_link = prefixes.CPC
 
     for file in files:
         print(f'reading {file}')
@@ -37,23 +39,22 @@ if __name__ == '__main__':
 
                 if '@prefix' in line:
                     new_prefix = sub('\n', '', line)
-                    prefixes.add(new_prefix)
-                if '<cpc:' in line:
+                    prefix_set.add(new_prefix)
+                elif cpc_link in line:
                     course_id = line
                     if course_id not in courses:
                         courses[course_id] = []
-                if '\t' in line:
-                    new_line = sub('[;\.]\n+', '', line)
+                elif '\t' in line:
+                    new_line = sub('\.$', ';', line)
 
                     courses[course_id].append(new_line)
                 line = reader.readline()
 
     with open(f'{folder}/Output.ttl', 'w') as writer:
-        writer.write('\n'.join(prefixes))
+        prefix_set_string = '\n'.join(prefix_set)
+        writer.write(f'{prefix_set_string}\n')
 
         for key, value in courses.items():
-
-
-            body = ';\n'.join(value)
-            body = sub('(\.;)', '', body)
-            writer.write(f'\n\n{key}{body}.')
+            body = ''.join(value)
+            body = sub(';$', '.', body)
+            writer.write(f'\n{key}{body}')
