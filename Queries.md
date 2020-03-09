@@ -36,6 +36,18 @@ WHERE {
 }
 ```
 
+*Note*: If this query is empty, then the database needs to be populated with the labels:
+
+```
+SELECT   ?link, ?predicate, ?object 
+WHERE {
+    ?courseId schema:courseCode ?something .
+    ?courseId owl:sameAs ?link .
+    ?link ?predicate ?object . 
+}
+
+```
+
 ### Problem 4
 For a given student, list all courses this student completed, together with the grade
 
