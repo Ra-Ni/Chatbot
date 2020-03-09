@@ -18,7 +18,7 @@ WHERE
 	?a rdfs:subClassOf foaf:Person . 
 	} UNION 
 	{
-	?c rdfs:type schema:Course  .
+	?c rdf:type schema:Course  .
 	}UNION
 
 	{
