@@ -10,26 +10,22 @@ WHERE
 
 #2)
 #number of students
-SELECT (COUNT(?a) AS ?students)
+SELECT (COUNT(?a) AS ?students),(COUNT(?c) AS ?Courses),COUNT(DISTINCT ?topic) AS ?Topics
+
 WHERE
 	{
+
+{
 	?a rdfs:subClassOf foaf:Person . 
-	}
-
-#number of courses
-SELECT (COUNT(?c) AS ?Courses)
-WHERE
+	} UNION 
 	{
-	?c rdfs:type schema:Course  .
-	}
+	?c rdf:type schema:Course  .
+	}UNION
 
-#number of topics
-SELECT (COUNT(DISTINCT ?topic) AS ?Topics)
-WHERE
 	{
-          ?course owl:sameAs ?topic .
-         }
-
+  ?course owl:sameAs ?topic .
+  }
+}
 
 #3)
 #For a course c, list all covered topics using their (English) labels and their link to DBpedia
@@ -40,8 +36,9 @@ WHERE
           ?courseId schema:courseCode "COMP249" .
           ?courseId owl:sameAs ?link .
           ?link rdfs:label ?topic .
-	 }
-
+	 
+FILTER (langMatches( lang(?topic), "EN" ) )
+}
 
 #4)
 #For a given student, list all courses this student completed, together with the grade
@@ -58,7 +55,9 @@ SELECT "Nick", "Lawson", ?Course, ?Grade  where {
 #5)
 # For a given topic, list all students that are familiar with the topic (i.e., took, and did not fail, a
 #course that covered the topic)
-SELECT ?FirstName, ?LastName, "COMP233", ?Grade  where {
+
+SELECT ?FirstName, ?LastName, "COMP248", ?Grade  where {
+
 ?s rdfs:subClassOf foaf:Person . 
 ?s foaf:firstName ?FirstName .
 ?s foaf:lastName ?LastName .
@@ -74,17 +73,29 @@ FILTER(?Grade != "F") .
 #For a student, list all topics (no duplicates) that this student is familiar with (based on the completed
 #courses for this student that are better than an “F” grade)
 
-SELECT DISTINCT  ?topic where {
-?s rdfs:subClassOf foaf:Person . 
-?s foaf:firstName "George" .
-?s foaf:lastName "Clooney" .
-?u schema:courseCode ?Course .
-?u owl:sameAs ?link .
+SELECT  DISTINCT  ?Name ,?Last, ?Topic, ?Grade where {
+
+?s rdfs:subClassOf foaf:Person .
+?s foaf:firstName "Tyler" .
+?s foaf:lastName "Perry" .
+?s cpo:took ?assessment .
+?s foaf:firstName ?Name.
+?s foaf:lastName ?Last .
+
+?assessment  rdfs:label ?courseId .
+?assessment  cpo:grade ?Grade .
+
+?courseId schema:courseCode ?Course .
+?courseId owl:sameAs ?link .
 ?link rdfs:label ?topic .
-?s cpo:took ?c .
-?c rdfs:label ?u .
-?c cpo:grade ?Grade .
-FILTER(?Grade != "F"). 
+
+?courseId schema:courseCode ?Course .
+?courseId owl:sameAs ?link .
+?link rdfs:label ?Topic .
+
+#FILTER(?Grade != "F"). 
+
+FILTER (langMatches( lang(?Topic), "EN" ) ).
 
 } 
 
