@@ -5,10 +5,9 @@ It calls on to parse courses, descriptions, and topics in a sequential manner.
 
 """
 
-import prefixes
-import rdf_converter
 from re import sub
 from environment import course, description, topic
+from utils import rdf_converter, prefixes
 
 if __name__ == '__main__':
     target = '../assets/Courses'
