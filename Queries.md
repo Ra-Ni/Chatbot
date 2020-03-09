@@ -36,8 +36,8 @@ WHERE {
 }
 ```
 
-*Note*: If this query is empty, then the database needs to be populated with the labels:
-
+*Note*: If this query is empty, then the database needs to be populated with the labels first:
+You will need to have the sponging option on for "Retrieve all missing remote RDF data that might be useful."
 ```
 SELECT   ?link, ?predicate, ?object 
 WHERE {
