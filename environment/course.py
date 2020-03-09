@@ -15,7 +15,7 @@ def fetch(output: Union[str, bytes, int]) -> None:
 
 def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> None:
     cpc_p, cpc_ns, cpc_link = prefixes.CPC
-    rdfs_p, rdfs_ns, _ = prefixes.RDFS
+    rdf_p, rdf_ns, _ = prefixes.RDF
     schema_p, schema_ns, _ = prefixes.SCHEMA
     dbr_p, dbr_ns, _ = prefixes.DBPEDIA_RESOURCE
     xsd_p, xsd_ns, _ = prefixes.XMLSCHEMA
@@ -31,7 +31,7 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
 
     with open(output, 'w') as writer:
 
-        writer.write(f'{cpc_p}\n{rdfs_p}\n{schema_p}\n{dbr_p}\n{xsd_p}')
+        writer.write(f'{cpc_p}\n{rdf_p}\n{schema_p}\n{dbr_p}\n{xsd_p}')
 
         with open(target, 'r') as reader:
             json_form = load(reader)
@@ -45,7 +45,7 @@ def parse(target: Union[str, bytes, int], output: Union[str, bytes, int]) -> Non
                 courses_seen.add(item['ID'])
                 subject = f'<{cpc_link}{item["ID"]}>'
                 turtle_form = list()
-                turtle_form.append(f'\n\t{rdfs_ns}:type {schema_ns}:Course')
+                turtle_form.append(f'\n\t{rdf_ns}:type {schema_ns}:Course')
                 turtle_form.append(f'\n\t{schema_ns}:courseCode \"{item["subject"]}{item["catalog"]}\"')
                 turtle_form.append(f'\n\t{schema_ns}:numberOfCredits \"{item["classUnit"]}\"^^{xsd_ns}:float')
 

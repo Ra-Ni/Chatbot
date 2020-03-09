@@ -14,6 +14,7 @@ SELECT (COUNT(?a) AS ?students),(COUNT(?c) AS ?Courses),COUNT(DISTINCT ?topic) A
 
 WHERE
 	{
+
 {
 	?a rdfs:subClassOf foaf:Person . 
 	} UNION 
@@ -22,10 +23,9 @@ WHERE
 	}UNION
 
 	{
-          ?course owl:sameAs ?topic .
-         }}
-
-
+  ?course owl:sameAs ?topic .
+  }
+}
 
 #3)
 #For a course c, list all covered topics using their (English) labels and their link to DBpedia
@@ -55,7 +55,9 @@ SELECT "Nick", "Lawson", ?Course, ?Grade  where {
 #5)
 # For a given topic, list all students that are familiar with the topic (i.e., took, and did not fail, a
 #course that covered the topic)
+
 SELECT ?FirstName, ?LastName, "COMP248", ?Grade  where {
+
 ?s rdfs:subClassOf foaf:Person . 
 ?s foaf:firstName ?FirstName .
 ?s foaf:lastName ?LastName .
@@ -72,7 +74,6 @@ FILTER(?Grade != "F") .
 #courses for this student that are better than an “F” grade)
 
 SELECT  DISTINCT  ?Name ,?Last, ?Topic, ?Grade where {
-
 
 ?s rdfs:subClassOf foaf:Person .
 ?s foaf:firstName "Tyler" .
