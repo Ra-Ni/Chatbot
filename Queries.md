@@ -106,7 +106,7 @@ WHERE {
     ?courseId owl:sameAs ?link .
     ?link rdfs:label ?Topic .
     
-    #FILTER(?Grade != "F"). 
+    FILTER(?Grade != "F"). 
     
     FILTER (langMatches( lang(?Topic), "EN" ) ).
 } 
