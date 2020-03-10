@@ -1,5 +1,5 @@
 @prefix cpc: <http://www.conupedia.sytes.net/Course/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix schema: <http://schema.org/version/6.0/#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .

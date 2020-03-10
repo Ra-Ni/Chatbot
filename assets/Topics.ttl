@@ -1,5 +1,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix cpc: <http://www.conupedia.sytes.net/Course/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
 
 <http://www.conupedia.sytes.net/Course/000026>
 	owl:sameAs <http://dbpedia.org/resource/Accounting> ;
