@@ -70,9 +70,7 @@ class Session:
 
         for dictionary in json_t:
             for key in dictionary.keys():
-                dictionary[key] = dictionary[key]['value']
-
-        return json_t
+                yield key, dictionary[key]['value']
 
 
 if __name__ == '__main__':
