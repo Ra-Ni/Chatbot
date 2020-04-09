@@ -84,7 +84,6 @@ if __name__ == '__main__':
 
     response = session.submit(query)
 
-    # The response is a list, and each element in the list is a
-    # dictionary containing the variables (?s) that was projected
+    # The response is a generator/iterator that returns a tuple
     for item in response:
         print(item)
