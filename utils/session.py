@@ -70,7 +70,9 @@ class Session:
 
         for dictionary in json_t:
             for key in dictionary.keys():
-                yield key, dictionary[key]['value']
+                dictionary[key] = dictionary[key]['value']
+
+        return json_t
 
 
 if __name__ == '__main__':
@@ -84,6 +86,7 @@ if __name__ == '__main__':
 
     response = session.submit(query)
 
-    # The response is a generator/iterator that returns a tuple
+    # The response is a list, and each element in the list is a
+    # dictionary containing the variables (?s) that was projected
     for item in response:
         print(item)
