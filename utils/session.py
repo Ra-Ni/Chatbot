@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # Call submit if you want to query something remotely.
     query = """select * 
     where {
-    ?subject ?predicate ?object .
+    ?ID rdf:type schema:Course .
     } limit 100"""
 
     response = session.submit(query)
