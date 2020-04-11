@@ -111,9 +111,75 @@ WHERE {
     FILTER (langMatches( lang(?Topic), "EN" ) ).
 } 
 ```
+### Part 2 Question 1 
+What is the given course about?
+
+```
+SELECT  "COMP248", ?Description 
+WHERE {
+    ?u schema:courseCode "COMP248" .
+    ?u schema:description ?Description .
+} 
+
+```
+
+### Part 2 Question 2
+Which courses did a given student take? Lists course names/subject/numbers, and the achieved grade/term.
+
+```
+
+SELECT  DISTINCT  ?Name ,?Last, ?Course, ?Code, ?Grade 
+WHERE {   
+    ?s rdfs:subClassOf foaf:Person .
+    ?s foaf:firstName "Tyler" .
+    ?s foaf:lastName "Perry" .
+    ?s cpo:took ?assessment .
+    ?s foaf:firstName ?Name.
+    ?s foaf:lastName ?Last .
+    
+    ?assessment  rdfs:label ?courseId .
+    ?assessment  cpo:grade ?Grade .
+    ?courseId schema:name ?Course .
+    ?courseId schema:courseCode ?Code .
+
+} 
+```
 
 
+### Part 2 Question 3
+Which courses cover a given topic ?
+```
+SELECT  DISTINCT  ?Course
+WHERE {   
+    ?courseId schema:courseCode ?Course .
+    ?courseId owl:sameAs ?link .
+    ?link rdfs:label ?Topic .
+    FILTER regex(?Topic, "Software architecture", "i") .
+} 
+```
 
+### Part 2 Question 4
+Who is familiar with a given topic?
 
-
-
+```
+SELECT  DISTINCT  ?Name ,?Last, ?Topic, ?Grade 
+WHERE {   
+    ?s rdfs:subClassOf foaf:Person .
+    ?s foaf:firstName "Tyler" .
+    ?s foaf:lastName "Perry" .
+    ?s cpo:took ?assessment .
+    ?s foaf:firstName ?Name.
+    ?s foaf:lastName ?Last .
+    
+    ?assessment  rdfs:label ?courseId .
+    ?assessment  cpo:grade ?Grade .
+    
+    ?courseId schema:courseCode ?Course .
+    ?courseId owl:sameAs ?link .
+    ?link rdfs:label ?Topic .
+    
+    FILTER(?Grade != "F"). 
+    
+    FILTER (langMatches( lang(?Topic), "EN" ) ).
+} 
+```
