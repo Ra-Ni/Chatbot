@@ -113,6 +113,9 @@ WHERE {
 ```
 ### Part 2 Question 1 
 What is the given course about?
+<!--- 
+Given a courseCode, the course id is matched from Courses.ttl. The retrieved id is then matched to Descriptions.ttl and returned.  
+--->
 
 ```
 SELECT  ?Description 
@@ -126,6 +129,11 @@ WHERE {
 ### Part 2 Question 2
 Which courses did a given student take? Lists course names/subject/numbers, and the achieved grade/term.
 
+<!---
+Given a students first and last name, their list of taken assessments is retrieved. Then each assessments courseId is retrieved along with the grade recieved.
+the courseId is then mapped to that of Courses.ttl to retrieve the course name.
+Course name and grade recieved is then returned.
+--->
 ```
 
 SELECT ?Course, ?Grade 
@@ -145,6 +153,10 @@ WHERE {
 
 ### Part 2 Question 3
 Which courses cover a given topic ?
+
+<!--- 
+All Courses are retrieved. Their links to DBPedia are then retrieved to find their topics. All topics are then filtered based on the desired given topic using a regular expressing by topic name. The courses that related to given topic are then returned.
+--->
 ```
 SELECT DISTINCT ?Course
 WHERE {   
@@ -158,6 +170,9 @@ WHERE {
 ### Part 2 Question 4
 Who is familiar with a given topic?
 
+<!--- 
+All students with assessments are searched. The courseId is then found in the assessment and matched to Courses.ttl.  From there the link to the course topics are retrieved. The results are then filtered to only include grades above and 'F' so there are truly "familiar with the topic". Results are then further filtered by the given topic name. Students first and last names are then returned to show everyone familiar with a given topic.
+--->
 ```
 SELECT  DISTINCT  ?First ,?Last
 WHERE {   
