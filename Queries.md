@@ -162,11 +162,9 @@ Who is familiar with a given topic?
 SELECT  DISTINCT  ?Name ,?Last, ?Topic, ?Grade 
 WHERE {   
     ?s rdfs:subClassOf foaf:Person .
-    ?s foaf:firstName "Tyler" .
-    ?s foaf:lastName "Perry" .
-    ?s cpo:took ?assessment .
-    ?s foaf:firstName ?Name.
+    ?s foaf:firstName ?Name .
     ?s foaf:lastName ?Last .
+    ?s cpo:took ?assessment .
     
     ?assessment  rdfs:label ?courseId .
     ?assessment  cpo:grade ?Grade .
@@ -176,7 +174,6 @@ WHERE {
     ?link rdfs:label ?Topic .
     
     FILTER(?Grade != "F"). 
-    
-    FILTER (langMatches( lang(?Topic), "EN" ) ).
+    FILTER regex(?Topic, "Computer Programming", "i") .
 } 
 ```
