@@ -159,10 +159,10 @@ WHERE {
 Who is familiar with a given topic?
 
 ```
-SELECT  DISTINCT  ?Name ,?Last, ?Topic, ?Grade 
+SELECT  DISTINCT  ?First ,?Last
 WHERE {   
     ?s rdfs:subClassOf foaf:Person .
-    ?s foaf:firstName ?Name .
+    ?s foaf:firstName ?First .
     ?s foaf:lastName ?Last .
     ?s cpo:took ?assessment .
     
