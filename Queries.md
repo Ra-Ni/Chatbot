@@ -115,7 +115,7 @@ WHERE {
 What is the given course about?
 
 ```
-SELECT  "COMP248", ?Description 
+SELECT  ?Description 
 WHERE {
     ?u schema:courseCode "COMP248" .
     ?u schema:description ?Description .
@@ -128,19 +128,16 @@ Which courses did a given student take? Lists course names/subject/numbers, and 
 
 ```
 
-SELECT  DISTINCT  ?Name ,?Last, ?Course, ?Code, ?Grade 
+SELECT ?Course, ?Grade 
 WHERE {   
     ?s rdfs:subClassOf foaf:Person .
     ?s foaf:firstName "Tyler" .
     ?s foaf:lastName "Perry" .
     ?s cpo:took ?assessment .
-    ?s foaf:firstName ?Name.
-    ?s foaf:lastName ?Last .
     
     ?assessment  rdfs:label ?courseId .
     ?assessment  cpo:grade ?Grade .
-    ?courseId schema:name ?Course .
-    ?courseId schema:courseCode ?Code .
+    ?courseId schema:courseCode ?Course .
 
 } 
 ```
@@ -149,7 +146,7 @@ WHERE {
 ### Part 2 Question 3
 Which courses cover a given topic ?
 ```
-SELECT  DISTINCT  ?Course
+SELECT DISTINCT ?Course
 WHERE {   
     ?courseId schema:courseCode ?Course .
     ?courseId owl:sameAs ?link .
