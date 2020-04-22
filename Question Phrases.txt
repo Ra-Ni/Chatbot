@@ -1,0 +1,4 @@
+"which courses did Jane Doe take?"
+"who is familiar with Computers?"
+"which courses cover Computers?"
+"what is SOEN287 about?"
